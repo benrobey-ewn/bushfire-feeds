@@ -1,0 +1,24 @@
+
+Warning: Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+
+Warning: max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+
+Warning: array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+
+Warning: Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+
+Warning: max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+
+Warning: array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+
+Warning: Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+
+Warning: max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+
+Warning: array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+
+Warning: Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+
+Warning: max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+
+Warning: array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881

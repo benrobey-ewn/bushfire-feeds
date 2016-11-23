@@ -1,0 +1,161 @@
+HTTP/1.1 200 OK
+X-Powered-By: JSP/2.2
+Server: GlassFish Server Open Source Edition 3.1.2.2
+Content-Type: text/xml;charset=UTF-8
+Content-Length: 8286
+Date: Wed, 23 Nov 2016 01:04:01 GMT
+X-Varnish: 94899173 94899071
+Age: 10
+Via: 1.1 varnish
+Connection: keep-alive
+Cache-Control: no-store, no-cache, proxy-revalidate, must-revalidate, max-age=0, s-maxage=0
+Expires: Sat, 01 Jan 2000 00:00:01 GMT
+Vary: Accept-Encoding
+
+
+
+
+    
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Current Alerts List throughout Tasmania</title>
+        <link>http://www.fire.tas.gov.au/Show?pageId=colCurrentBushfires</link>
+        <atom:link href="http://www.fire.tas.gov.au/Show?pageId=colBushfireSummariesRss" rel="self" type="application/rss+xml" />
+        <description>This information is updated at 9:00 am, midday and 5:00 pm unless significant fire activity occurs.</description>
+        <language>en-us</language>
+        <pubDate>Wed, 23 Nov 2016 12:03:51 +1100</pubDate>
+        <webMaster>tfsonline@fire.tas.gov.au</webMaster>
+        <docs>http://www.fire.tas.gov.au/Show?pageId=xmlFeedsHome</docs>
+        <ttl>60</ttl>
+        
+            <item>
+                <title>Fergies Hill</title>
+                <link>http://www.fire.tas.gov.au/a/43044</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-21:245312</guid>
+                <pubDate>Tue, 22 Nov 2016 22:09:08 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Fergies Hill<br /> STATUS: Going<br /> TYPE: VEGETATION FIRE<br /> SIZE: Not reported<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/43044">http://www.fire.tas.gov.au/a/43044</a><br /> RESPONSIBLE AGENCY: Parks &amp; Wildlife Service<br /> UPDATED: Tue, 22 Nov 2016 22:09:08 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.096631849333995 146.19594870056858</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Snow Hill Tower Road, Lake Leake</title>
+                <link>http://www.fire.tas.gov.au/a/43041</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-20:245281</guid>
+                <pubDate>Tue, 22 Nov 2016 22:07:33 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Snow Hill Tower Road, Lake Leake<br /> STATUS: Going<br /> TYPE: VEGETATION FIRE<br /> SIZE: 30 hectares<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/43041">http://www.fire.tas.gov.au/a/43041</a><br /> RESPONSIBLE AGENCY: Parks &amp; Wildlife Service<br /> UPDATED: Tue, 22 Nov 2016 22:07:33 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.93340750829055 147.8549742884972</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Highland Lakes Road, Bothwell</title>
+                <link>http://www.fire.tas.gov.au/a/42923</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-19:245223</guid>
+                <pubDate>Tue, 22 Nov 2016 22:06:41 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: S<br /> LOCATION: Highland Lakes Road, Bothwell<br /> STATUS: Going<br /> TYPE: VEGETATION FIRE<br /> SIZE: 139 hectares<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/42923">http://www.fire.tas.gov.au/a/42923</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Tue, 22 Nov 2016 22:06:41 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.416724175275384 147.0744696945541</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Harris Road, Campania</title>
+                <link>http://www.fire.tas.gov.au/a/42896</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-18:245187</guid>
+                <pubDate>Tue, 22 Nov 2016 22:06:10 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: S<br /> LOCATION: Harris Road, Campania<br /> STATUS: Patrol<br /> TYPE: FUEL REDUCTION BURN<br /> SIZE: 22 hectares<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/42896">http://www.fire.tas.gov.au/a/42896</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Tue, 22 Nov 2016 22:06:10 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.61481698702483 147.39519265889493</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Hamish Court, NORTH RIVERSIDE</title>
+                <link>http://www.fire.tas.gov.au/i/245159</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-17:245159</guid>
+                <pubDate>Thu, 17 Nov 2016 13:16:50 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Hamish Court, NORTH RIVERSIDE<br /> STATUS: Patrol<br /> TYPE: FIRE INCIDENT<br /> SIZE: Not Available<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/i/245159">http://www.fire.tas.gov.au/i/245159</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Thu, 17 Nov 2016 13:16:50 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.40307504657149 147.08167528418494</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Coal River Sugarloaf</title>
+                <link>http://www.fire.tas.gov.au/a/42928</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-10:244928</guid>
+                <pubDate>Tue, 22 Nov 2016 22:03:40 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: S<br /> LOCATION: Coal River Sugarloaf<br /> STATUS: Patrol<br /> TYPE: FUEL REDUCTION BURN<br /> SIZE: 400 hectares<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/42928">http://www.fire.tas.gov.au/a/42928</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Tue, 22 Nov 2016 22:03:40 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.62903008505309 147.4048926478634</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Goulds Country and Ansons Bay</title>
+                <link>http://www.fire.tas.gov.au/a/42656</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-11-09:244886</guid>
+                <pubDate>Wed, 23 Nov 2016 10:45:08 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Goulds Country and Ansons Bay<br /> STATUS: Patrol<br /> TYPE: FUEL REDUCTION BURN<br /> SIZE: 525 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/42656">http://www.fire.tas.gov.au/a/42656</a><br /> RESPONSIBLE AGENCY: Forestry Tasmania<br /> UPDATED: Wed, 23 Nov 2016 10:45:08 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.23706094133553 148.1579322570505</georss:point>
+                    
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
+
+
+

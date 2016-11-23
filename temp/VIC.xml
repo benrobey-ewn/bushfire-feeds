@@ -1,0 +1,135 @@
+<rss xmlns:datetime="http://exslt.org/dates-and-times" xmlns:georss="http://www.georss.org/georss" version="2.0">
+<channel>
+<title>Statewide Current Incident Summary</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm?tm=07072016120000</link>
+<description>Current activity (over the previous 5 hours) is listed below.</description>
+<language>en-us</language>
+<pubDate>Thu, 7 Jul 2016 04:11:03 GMT</pubDate>
+<lastBuildDate></lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>Whispir RSS Engine</generator>
+<managingEditor>no-reply@whispir.com</managingEditor>
+<webMaster>no-reply@whispir.com</webMaster>
+<ttl>5</ttl>
+<item>
+<title>HODDLES CREEK, EACOTTS RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 13&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; HODDLES CREEK&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; EACOTTS RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 07/07/16 01:28:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 07/07/16 12:52:00 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 7 Jul 2016 03:28:00 GMT</pubDate>
+<guid>1583780</guid>
+<georss:collection>
+<georss:point>-37.85127246843107 145.56930182805456</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>CLYDE, </title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CLYDE&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; &lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 07/07/16 12:27:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; RESCUE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 07/07/16 12:00:00 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 7 Jul 2016 02:27:00 GMT</pubDate>
+<guid>1583774</guid>
+<georss:collection>
+<georss:point>-38.1187558299235 145.32715690615922</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>OMEO, CRISP ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 11&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; OMEO&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; CRISP ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 07/07/16 02:04:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 07/07/16 01:31:00 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 7 Jul 2016 04:04:00 GMT</pubDate>
+<guid>1583784</guid>
+<georss:collection>
+<georss:point>-37.09559254600847 147.59240425071337</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>NORTH BENDIGO, STEWART ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 02&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; NORTH BENDIGO&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; STEWART ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 07/07/16 01:59:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 07/07/16 01:28:00 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 7 Jul 2016 03:59:00 GMT</pubDate>
+<guid>1583783</guid>
+<georss:collection>
+<georss:point>-36.7466199398568 144.28425227538278</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>MELTON, COBURNS RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 14&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; MELTON&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; COBURNS RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 07/07/16 01:45:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; FALSE ALARM&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 07/07/16 01:24:00 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 7 Jul 2016 03:45:00 GMT</pubDate>
+<guid>1583782</guid>
+<georss:collection>
+<georss:point>-37.68211629114738 144.56681990893978</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>HEIDELBERG HEIGHTS, UPPER HEIDELBERG RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; HEIDELBERG HEIGHTS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; UPPER HEIDELBERG RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 07/07/16 02:06:56 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Full Call&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Initiated&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 07/07/16 02:06:56 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 7 Jul 2016 04:06:56 GMT</pubDate>
+<guid>160702523</guid>
+<georss:collection>
+<georss:point>-37.75746421385875 145.0538839939536</georss:point>
+</georss:collection>
+</item>
+</channel>
+</rss>

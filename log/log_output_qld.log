@@ -1,0 +1,43 @@
+HTTP/1.1 302 Redirect
+Content-Type: text/html; charset=UTF-8
+Location: https://ruralfire.qld.gov.au/bushfirealert/bushfireAlert.js
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+Date: Wed, 23 Nov 2016 01:04:02 GMT
+Content-Length: 182
+Set-Cookie: visid_incap_883218=iqocXINKQYGfJhrSBYlTaQHrNFgAAAAAQUIPAAAAAACL5Hplj2joK/cMzOCzNunH; expires=Wed, 22 Nov 2017 07:37:17 GMT; path=/; Domain=.ruralfire.qld.gov.au
+Set-Cookie: incap_ses_436_883218=pL17FS53YAwv7Lvc4/sMBgHrNFgAAAAA2LDWK3LowsgnWAh5T7IttQ==; path=/; Domain=.ruralfire.qld.gov.au
+X-Iinfo: 3-16230443-16230444 NNNN CT(3 -1 0) RT(1479863041519 0) q(0 0 0 -1) r(0 0) U11
+X-CDN: Incapsula
+
+HTTP/1.1 302 Redirect
+Content-Type: text/html; charset=UTF-8
+Location: https://www.qfes.qld.gov.au/data/alerts/bushfireAlert.js
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+MicrosoftSharePointTeamServices: 15.0.0.4709
+X-Content-Type-Options: nosniff
+X-MS-InvokeApp: 1; RequireReadOnly
+Date: Wed, 23 Nov 2016 01:04:02 GMT
+Content-Length: 179
+Set-Cookie: visid_incap_883218=0B64WvxRR0acSjrL110r6QHrNFgAAAAAQUIPAAAAAABag1Zt2Tck8RiJkVguAt4p; expires=Wed, 22 Nov 2017 07:37:17 GMT; path=/
+Set-Cookie: incap_ses_436_883218=PKYqLC6cvCVM7Lvc4/sMBgHrNFgAAAAAr54LBowgbv97upDFKzSRgQ==; path=/
+X-Iinfo: 3-16230445-16230462 NNNN CT(2 11 0) RT(1479863041540 293) q(0 0 0 -1) r(0 0) U11
+X-CDN: Incapsula
+
+HTTP/1.1 404 Not Found
+Server: Microsoft-IIS/8.5
+X-Powered-By: ASP.NET
+MicrosoftSharePointTeamServices: 15.0.0.4709
+X-Content-Type-Options: nosniff
+X-MS-InvokeApp: 1; RequireReadOnly
+Date: Wed, 23 Nov 2016 01:04:02 GMT
+Content-Length: 0
+Set-Cookie: visid_incap_724216=qhpFVZKZRMunVoNROaYIJQHrNFgAAAAAQUIPAAAAAAA/DIMFDD0+KGFkoXSh2CR3; expires=Wed, 22 Nov 2017 07:37:17 GMT; path=/; Domain=.qfes.qld.gov.au
+Set-Cookie: incap_ses_436_724216=jSKkMDmcNV5U7Lvc4/sMBgHrNFgAAAAAMlioDctrLjuedEbahdSzvw==; path=/; Domain=.qfes.qld.gov.au
+Strict-Transport-Security: max-age=31536000
+X-Iinfo: 5-8241740-8241496 PNNN RT(1479863041882 35) q(0 0 0 -1) r(0 0) U11
+X-CDN: Incapsula
+
+
+Notice: Undefined offset: 1 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 80

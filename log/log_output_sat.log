@@ -1,0 +1,5 @@
+
+Warning: DOMDocument::loadHTMLFile(http://www.cfs.sa.gov.au/site/news_media/current_incidents.jsp): failed to open stream: HTTP request failed! HTTP/1.0 403 Forbidden
+ in /var/www/html/bushfire-traffic/lib/Traffic.php on line 49
+
+Fatal error: Call to undefined function libxml_get_error() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 51

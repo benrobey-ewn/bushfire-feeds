@@ -1,0 +1,88 @@
+==3927== Lock acquired, processing the job...
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+PHP Warning:  max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+PHP Warning:  max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+PHP Warning:  max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/bushfire-traffic/lib/Traffic.php on line 800
+PHP Warning:  max(): Array must contain at least one element in /var/www/html/bushfire-traffic/lib/Traffic.php on line 812
+PHP Warning:  array_key_exists() expects parameter 2 to be array, null given in /var/www/html/bushfire-traffic/lib/Traffic.php on line 881
+PHP Notice:  Undefined offset: 1 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 80
+PHP Warning:  simplexml_load_string(): Entity: line 88: parser error : xmlParseEntityRef: no name in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       var searchBox =  ($('#searchBox2').length && $('#searchBox2').is(':visible in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                                                  ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 88: parser error : xmlParseEntityRef: no name in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       var searchBox =  ($('#searchBox2').length && $('#searchBox2').is(':visible in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                                                   ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 108: parser error : xmlParseEntityRef: no name in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       if (result.field == 'dctermstopic' && result.values[0]) { in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                                           ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 108: parser error : xmlParseEntityRef: no name in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       if (result.field == 'dctermstopic' && result.values[0]) { in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                                            ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 117: parser error : StartTag: invalid element name in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():      if(totalCount < 10){ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                     ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 158: parser error : Opening and ending tag mismatch: link line 58 and head in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </head> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 209: parser error : Opening and ending tag mismatch: img line 207 and a in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                 </a> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                     ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 210: parser error : Opening and ending tag mismatch: a line 206 and span in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():               </span> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                      ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 212: parser error : Opening and ending tag mismatch: span line 205 and div in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():             </div> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                   ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 228: parser error : Opening and ending tag mismatch: div line 202 and header in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       </header> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 271: parser error : Entity 'nbsp' not defined in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():    &nbsp; in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():          ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 299: parser error : Opening and ending tag mismatch: img line 298 and div in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </div>            </div> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 306: parser error : Entity 'copy' not defined in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                <div class="left-container"><p>&copy; 2016 Northern Territory Gov in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                                                     ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 310: parser error : Opening and ending tag mismatch: div line 292 and footer in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():       </footer> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():                ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 312: parser error : Opening and ending tag mismatch: footer line 291 and div in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():     </div> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():           ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 335: parser error : Opening and ending tag mismatch: header line 193 and body in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </body> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Opening and ending tag mismatch: div line 161 and html in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Premature end of data in tag body line 160 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Premature end of data in tag meta line 47 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Premature end of data in tag meta line 22 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Premature end of data in tag meta line 21 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Premature end of data in tag head line 18 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): Entity: line 336: parser error : Premature end of data in tag html line 17 in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string(): </html> in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+PHP Warning:  simplexml_load_string():        ^ in /var/www/html/bushfire-traffic/lib/EventFeedAbs.php on line 109
+==3927== Releasing lock...
+--> /var/www/html/bushfire-traffic/index_http.php, 65: Process nt with pid 3950 finished.
+2016-11-23 1:04:04 - DEBUG --> /var/www/html/bushfire-traffic/index_http.php, 65: Process wa with pid 3944 finished.
+2016-11-23 1:04:04 - DEBUG --> /var/www/html/bushfire-traffic/index_http.php, 65: Process wat with pid 3965 finished.
+2016-11-23 1:04:04 - DEBUG --> /var/www/html/bushfire-traffic/index_http.php, 73: All jobs finished. Exiting...

@@ -1,0 +1,77 @@
+#tb {
+
+/*top  container centered horizontally, 0px from the top*/
+position:absolute;
+left: 50%; 
+top:0px;    
+width: 900px;
+margin-left: -450px; /* half of the width */
+text-align: left;
+height:100%;
+}
+
+/*Generated from Designmycss.com*/
+
+
+table
+{
+    border-collapse:collapse;
+    border-style:solid;
+    border-width:1px;
+    border-color:#707070;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0px;
+    box-shadow:1px 1px 3px 1px #6E6D6D;
+}
+ 
+th
+{
+    color:#FFFFFF;
+    background:#DB2C2C;
+    background: -moz-linear-gradient(top,  #DB2C2C 0%, #571515 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DB2C2C), color-stop(100%,#571515));
+    background: -webkit-linear-gradient(top,#DB2C2C 0%,#571515 100%);
+    background: -o-linear-gradient(top,#DB2C2C 0%,#571515 100%);
+    background: -ms-linear-gradient(top,#DB2C2C 0%,#571515 100%);
+    background: linear-gradient(top,#DB2C2C 0%,#571515 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DB2C2C',endColorstr='#571515',GradientType=0s);
+    font-size:14px;
+    font-weight:bold;
+    padding:5px;
+    text-align:center;
+    vertical-align:top;
+}
+ 
+tr
+{
+    color:#000000;
+    border-top-style: solid;
+    border-width:1px;
+    border-color:#707070;
+    font-size:12px;
+    font-weight:normal;
+}
+ 
+tr:hover td
+{
+    background:#B4F0E9;
+    color:#000000;
+}
+ 
+tr:nth-child(odd) td
+{
+background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td
+{
+    background:#B4F0E9;
+}
+ 
+td
+{
+    background:#FFFFFF;
+    padding:3px 5px;
+    text-align:left;
+    vertical-align:top;
+}

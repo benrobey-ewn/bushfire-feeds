@@ -1,0 +1,789 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html id="ctl00_Html1" xmlns="http://www.w3.org/1999/xhtml" __expr-val-dir="ltr" lang="en-us" dir="ltr">
+	<head id="ctl00_Head1"><meta http-equiv="X-UA-Compatible" content="IE=10;IE=9" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta http-equiv="Expires" content="0" />		
+
+		<!-- Javascript files -->
+		<script src="/Style%20Library/MRWA_Internet/scripts/jquery-1.4.2.min.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/jquery-ui-1.8.16.min.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/jquery.selectbox.min.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/jquery.timers.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/jquery.cookie.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/jquery.resize.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/scripts_main.js?v=20160609"></script>
+<script src="/Style%20Library/MRWA_Internet/scripts/scripts_global.js?v=20160609"></script>
+<script type="text/javascript" src="/_layouts/15/init.js?rev=%2FWTxr8UesytJ8GB%2F5hOwZA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.core/script.js?rev=tCMGiBWhIA%2BN0eTntcHklA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.rteextension/sp.ui.ribbon.rteextension.js"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.alerts/scripts/ribbon.pagecomponent.loader.js"></script>
+<script type="text/javascript" src="/ScriptResource.axd?d=goctzJkWEnN-kfn6LF9iXWXS6BtPjbhGEEo1fRRAAH0PqCEBnH7kEOaAOmZe3ZKG7-cWmBwylLj2iwBja0ZYWVgYehC0flhhzKzoLqQQUesxfyBTLSk4GD7h_u-d25dC3W7jIfZOgRpsEvJA90g-ugak60hBu3Edm3vrbGbhU1xAhsg_oKVBAcSOVEKMYrZg0&amp;t=ffffffff805766b3"></script>
+<script type="text/javascript" src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/1033/initstrings.js?rev=4Yrxyggg5knao3D48Ii%2FWA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/1033/strings.js?rev=u%2B0KcZWR52dtr8LTlqcZcw%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/core.js?rev=uA2xjCXmuYM5ARP8g3eTSA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/sp.init.js?rev=3nSw25FIGbfepznMSgi74A%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/ScriptResx.ashx?culture=en%2Dus&amp;name=SP%2ERes&amp;rev=yNk%2FhRzgBn40LJVP%2BqfgdQ%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/sp.runtime.js?rev=5f2WkYJoaxlIRdwUeg4WEg%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/sp.ui.dialog.js?rev=0xf6wCIW4E1pN83I9nSIJQ%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/core.js?rev=uA2xjCXmuYM5ARP8g3eTSA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/sp.core.js?rev=b89b6nnwOk%2FeDkJa0KhP5w%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/sp.js?rev=BZlBP%2Bn9Ja3uUvqzGXl8xw%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/cui.js?rev=hkelvuz%2BDyOYNl9FmpxUvA%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/inplview.js?rev=JuQvHna5pA8GjBqyCrETww%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/sp.ribbon.js?rev=d4Y4E0ghdo65Uz4tti0FZw%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.workflow/sp.ui.workflow.js?rev=%2Funi3kVG4AQa8tgVp9uvlw%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.glossary/sp.ui.glossary.js?rev=9xNhNtiI8UTM%2F8T4mCNY7w%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.glossary/glossarytooltips.js?rev=WjDdQumm3DWUzZepg7HCbw%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.trim/uploadtrimdocument.js?rev=yHZ7TNmCM6eDzbaPzajaHg%3D%3D"></script>
+<script type="text/javascript" src="/_layouts/15/mrwa.internet.trim/sp.ui.trim.js?rev=Ekp79pKGnFE6GWUM28Gl7w%3D%3D"></script>
+<script type="text/javascript">RegisterSod("clientrenderer.js", "\u002f_layouts\u002f15\u002fclientrenderer.js?rev=PWwV4FATEiOxN90BeB5Hzw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("srch.resources.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=Srch\u00252EResources\u0026rev=T\u00252BEc8BFdsTQbQuVAobKatQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("search.clientcontrols.js", "\u002f_layouts\u002f15\u002fsearch.clientcontrols.js?rev=5P1PlD9u0nLal8ZgtuGr6w\u00253D\u00253D");RegisterSodDep("search.clientcontrols.js", "clientrenderer.js");RegisterSodDep("search.clientcontrols.js", "srch.resources.resx");</script>
+<script type="text/javascript">RegisterSod("sp.search.js", "\u002f_layouts\u002f15\u002fsp.search.js?rev=uZlrSmuyYGO8yQWFVg\u00252BIdw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("ajaxtoolkit.js", "\u002f_layouts\u002f15\u002fajaxtoolkit.js?rev=4rOiCbaFgJMmqw9Ojtpa6g\u00253D\u00253D");RegisterSodDep("ajaxtoolkit.js", "search.clientcontrols.js");</script>
+<script type="text/javascript">RegisterSod("userprofile", "\u002f_layouts\u002f15\u002fsp.userprofiles.js?rev=Pbfi3FBmvy2ewPqDZp16\u00252BQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("mQuery.js", "\u002f_layouts\u002f15\u002fmquery.js?rev=VYAJYBo5H8I3gVSL3MzD6A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("followingcommon.js", "\u002f_layouts\u002f15\u002ffollowingcommon.js?rev=sObFmln\u00252BGVrczIpXNeFRrg\u00253D\u00253D");RegisterSodDep("followingcommon.js", "userprofile");RegisterSodDep("followingcommon.js", "mQuery.js");</script>
+<script type="text/javascript">RegisterSod("profilebrowserscriptres.resx", "\u002f_layouts\u002f15\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=ProfileBrowserScriptRes\u0026rev=J5HzNnB\u00252FO1Id\u00252FGI18rpRcw\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("sp.ui.mysitecommon.js", "\u002f_layouts\u002f15\u002fsp.ui.mysitecommon.js?rev=Ua8qmZSU9nyf53S7PEyJwQ\u00253D\u00253D");RegisterSodDep("sp.ui.mysitecommon.js", "userprofile");RegisterSodDep("sp.ui.mysitecommon.js", "profilebrowserscriptres.resx");</script>
+<script type="text/javascript">RegisterSod("browserScript", "\u002f_layouts\u002f15\u002fnon_ie.js?rev=W2q45TO627Zi6ztdktTOtA\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("WPAdderClass", "\u002f_layouts\u002f15\u002fwpadder.js?rev=ApLnd\u00252BqIPjLXRfr1t\u00252BCxyQ\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("dragdrop.js", "\u002f_layouts\u002f15\u002fdragdrop.js?rev=znmXBqiryAnXwfCVj\u00252Fqe9A\u00253D\u00253D");</script>
+<script type="text/javascript">RegisterSod("quicklaunch.js", "\u002f_layouts\u002f15\u002fquicklaunch.js?rev=SV6sY1PxQIso9KC9IL8e2Q\u00253D\u00253D");RegisterSodDep("quicklaunch.js", "dragdrop.js");</script>
+
+        <!--v3.0.0.6 - Task ID: 1183-->
+        
+		
+			
+		<!-- robots -->
+		
+		
+		<!-- page title - overridden by asp:content on pages or page layouts -->
+		<title>
+	
+	RSS - Main Roads Western Australia
+
+</title>
+		 
+		<!-- favicon -->
+		<link rel="shortcut icon" href="/_layouts/15/images/MRWA.Internet.Design/favicon.ico?v=2" type="image/vnd.microsoft.icon" id="favicon" />
+		
+		<!-- all OOTB css -->
+		<link rel="stylesheet" type="text/css" href="/_layouts/15/1033/styles/Themable/corev15.css?rev=ox%2BqLd6WTqhn6d%2FMqf2BMw%3D%3D"/>
+<link id="CssRegistration9" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/jquery-ui-1.8.16.css?v=20160609"/>
+<link id="CssRegistration8" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/styles_wp_core.css?v=20160609"/>
+<link id="CssRegistration4" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/styles_wp_alerts.css?v=20160609"/>
+<link id="CssRegistration3" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/styles_search.css?v=20160609"/>
+<link id="CssRegistration2" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/styles_mainnav.css?v=20160609"/>
+<link id="CssRegistration1" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/styles_main.css?v=20160609"/>
+<link id="CssRegistration5" rel="stylesheet" type="text/css" href="/Style%20Library/MRWA_Internet/styles/jquery.selectBox.css?v=20160609"/>
+
+		
+		<!-- page manager interacts with script and the sharepoint object model -->
+		
+		
+		<!-- unified logging service -->
+		
+		
+		<!-- identifies to scripting elements that this is a v4 master page. required for scrolling? -->
+		<script type="text/javascript">
+		    var _fV4UI = true;
+		</script>
+		
+		<!-- load SharePoint javascript -->
+		
+		
+	 
+	 	<style type="text/css">
+			/* fix scrolling on list pages */
+			#s4-bodyContainer {
+				position: relative;
+			}
+	
+			/* hide body scrolling (SharePoint will handle) */
+			body {
+				height:100%;
+				overflow:hidden;
+				width:100%;
+			}
+					
+			/* popout breadcrumb menu needs background color for firefox */
+			.s4-breadcrumb-menu {
+				background:#F2F2F2;
+			}
+			
+			body #s4-ribbonrow {
+                min-height: 0 !important;
+                height: auto !important;
+            }
+
+	 	    #pageStatusBar[class] {
+                 border-color: transparent;
+	 	    }
+		</style>
+		
+		
+		<!-- link to custom css  -->
+		
+	
+	
+	
+		<!--[if lte IE 6]>
+			<link id="ctl00_CssRegistration6" rel="stylesheet" type="text/css" href="/Style Library/MRWA_Internet/styles/styles_ie6.css?v=20160609" />
+		<![endif]-->
+		<!--[if !(lte IE 6)]><!-->
+			<style type="text/css">
+				.menu-horizontal ul.static ul {padding-left: 4px;}
+				.jsenabled .menu-horizontal ul.static ul, .menu-horizontal ul.static ul ul {padding-left: 0;}
+			</style>
+		<![endif]-->
+
+		<!-- javascript to override the active-x message in ie 
+			// See http://blog.drisgill.com/2010/02/removing-name-activex-control-warning.html for more info
+			// Remove if the IM pressence icons are needed in SharePoint
+		-->
+		<script type="text/javascript">
+		    function ProcessImn() { }
+		    function ProcessImnMarkers() { }
+		</script>
+	
+		
+		<!-- additional header delegate control -->
+		<script type="text/javascript">// <![CDATA[ 
+
+
+    var wt_sp_user = {"wterr_2":"UserProfileApplicationNotAvailableException_Logging :: UserProfileApplicationProxy.GetRawPartitionID has null proxy","wterr_2_str":"Microsoft.Office.Server.UserProfiles.UserProfileApplicationNotAvailableException%3a+UserProfileApplicationNotAvailableException_Logging+%3a%3a+UserProfileApplicationProxy.GetRawPartitionID+has+null+proxy%0d%0a+++at+Microsoft.Office.Server.Administration.UserProfileApplicationProxy.GetRawPartitionID(SPServiceContext+serviceContext)%0d%0a+++at+Microsoft.Office.Server.UserProfiles.ProfileManagerBase..ctor(SPServiceContext+serviceContext)%0d%0a+++at+Microsoft.Office.Server.UserProfiles.ProfileManagerBase..ctor(SPServiceContext+serviceContext%2c+Boolean+ignorePrivacy)%0d%0a+++at+Microsoft.Office.Server.UserProfiles.UserProfileManager..ctor(SPServiceContext+serviceContext%2c+Boolean+IgnoreUserPrivacy%2c+Boolean+backwardCompatible)%0d%0a+++at+Microsoft.Office.Server.UserProfiles.UserProfileManager..ctor(SPServiceContext+serviceContext)%0d%0a+++at+Webtrends.SharePoint.UserInfo.ControlTemplates.Webtrends.SharePoint.UserInfo.WTUserInfoControl.GetUserInfo()"}
+// ]]>
+</script>
+<script type="text/javascript">// <![CDATA[ 
+
+		   
+    window.wt_sp_globals = {
+        url:"https://www.mainroads.wa.gov.au",
+        title:"Home",
+        method: "feature"
+    };
+     
+    (function () {
+        var s = document.createElement("script");
+        s.src = window.wt_sp_globals.url + "/Lists/WebtrendsAssets/webtrends.load.js";
+        var s2 = document.getElementsByTagName("script")[0];
+        s2.parentNode.insertBefore(s, s2);
+    })();
+// ]]>
+</script>
+<link rel="canonical" href="https://www.mainroads.wa.gov.au:443/Pages/RSS.aspx" /><span></span><span></span><span></span>
+		
+		<!-- additional header placeholder - overridden by asp:content on pages or page layouts -->
+			
+	
+		<!-- microsoft says these should always be inside the head tag. -->
+	   	
+		
+		<script type="text/javascript">
+		    ExecuteOrDelayUntilScriptLoaded(function () {
+		        if (typeof _FixRibbonAndPageLayout === "undefined") {
+		            _FixRibbonAndPageLayout = FixRibbonAndPageLayout;
+		        }
+		        FixRibbonAndPageLayout = function () {
+		            var ret = _FixRibbonAndPageLayout.apply(this, arguments);
+		            var row = GetCachedElement("s4-titlerow");
+		            if (row) { row.style.display = "block"; }
+		            return ret;
+		        }
+		        var on_resized = function () {
+		            var elmRibbonContainer = GetCachedElement("ribbon-container");
+		            var elmWorkspace = GetCachedElement("s4-workspace");
+		            var ribbonHeight = 0;
+		            if (document.documentElement.className.indexOf('ms-dialog-nr') == -1) {
+		                var none = { offsetHeight: 0 };
+		                ribbonHeight = (GetCachedElement("ribbonBox") || none ).offsetHeight + (GetCachedElement("suiteBar") || none).offsetHeight;
+		            }
+		            elmWorkspace.style.paddingTop = ribbonHeight + 'px';
+		        };
+		        SP.UI.Workspace.add_resized(on_resized);
+		    }, "init.js");
+
+		    ExecuteOrDelayUntilScriptLoaded(function () {
+		        var publishLinkAttempts = 10;
+		        var publishLinkHack = function () {
+		            try {
+		                if (MRWA.Workflow.UI.PageComponent.CanStartApprove()) {
+		                    if (0 == jQuery(".ms-status-body a[onclick*='Publish']").click(MRWA.Workflow.UI.PageComponent.InitiateApproval).removeAttr("onclick").addClass("publish-link").length) {
+		                        if (publishLinkAttempts-- > 0) {
+		                            setTimeout(publishLinkHack, 1000);
+		                        }
+		                    }
+		                }
+		            }
+		            catch (e) { }
+		        };
+		        $(publishLinkHack);
+		    }, "sp.ui.trim.js");
+		</script>
+        <div id="ctl00_displayMode">
+	
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    // If loggedin and not edit
+                    if (!$(".ms-SPZone").length) {
+                        $(".ms-WPHeader .ms-WPHeaderTdSelection").hide();
+                    }
+
+                    FixRibbonAndWorkspaceDimensions();
+
+                    // look for all mailto on this page to add current page url as subject line
+                    $.each($('a[href^="mailto:"]'), function () {
+                        var linkText = $(this).text();
+                        var linkUrl = this.href;
+                        this.href = linkUrl + '?subject=' + encodeURIComponent(window.location);
+                        $(this).text(linkText);
+                    });
+                });
+            </script>
+            <style type="text/css">
+                body.v4master {
+                   overflow: visible;
+                   height: inherit;
+                   width: inherit;
+                }
+                body #s4-workspace {
+	                overflow: visible !important;
+                }
+            </style> 
+</div>
+        <style type="text/css">
+            /*v3.0.0.6 - Task ID: 1179*/
+        #s4-ribbonrow .ms-MenuUIPopupBody, #s4-ribbonrow .ms-popoutMenu, .ms-cui-menu[id ^= "Ribbon."], .ms-cui-tooltip[id ^= "Ribbon."] {
+	        position: fixed !important;
+        }
+        .ms-dlgOverlay {
+	        width: 100% !important;
+        }
+        </style>
+
+	<style type="text/css">
+	.s4-skipribbonshortcut { display:none; }
+
+</style></head>
+
+
+	<body class="v4master" onload="javascript:_spBodyOnLoadWrapper();">
+		<div class='s4-notdlg noindex'>
+			<span id='skiplinks'>
+				<a class="hide" href='#search'>skip to search</a>
+				<a class="hide" href='#main-nav'>skip to main navigation</a>
+				<a class="hide" href='#left-nav'>skip to left navigation</a>
+				<a class="hide" href='#content'>skip to content</a>
+			</span>
+		</div>
+		
+		<div id="main">
+		
+			<form method="post" action="RSS.aspx" id="aspnetForm">
+<input type="hidden" name="_wpcmWpid" id="_wpcmWpid" value="" />
+<input type="hidden" name="wpcmVal" id="wpcmVal" value="" />
+<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="" />
+<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="" />
+<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0" />
+<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False" />
+<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="" />
+<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="" />
+<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none" />
+<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0xFC62F51F9ECA096D7E8D43FDA74D1BBCF40ECD0A70E785ABE8D628F23CBF4C6C78578E2FA45BD965F8A8E9CD4E17BEE51128632130B3533DD6EBECC274BE5BEE,23 Nov 2016 01:04:03 -0000" />
+<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false" />
+<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="" />
+<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="" />
+<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="" />
+<input type="hidden" name="_wpSelected" id="_wpSelected" value="" />
+<input type="hidden" name="_wzSelected" id="_wzSelected" value="" />
+<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse" />
+<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false" />
+<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false" />
+<input type="hidden" name="_maintainWorkspaceScrollPosition" id="_maintainWorkspaceScrollPosition" value="0" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzQ0ODU1NTMzD2QWAmYPZBYCAgEPZBYEAgEPZBYEAhIPZBYCZg9kFgICAQ8WAh4TUHJldmlvdXNDb250cm9sTW9kZQspiAFNaWNyb3NvZnQuU2hhcmVQb2ludC5XZWJDb250cm9scy5TUENvbnRyb2xNb2RlLCBNaWNyb3NvZnQuU2hhcmVQb2ludCwgVmVyc2lvbj0xNS4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj03MWU5YmNlMTExZTk0MjljAWQCKw9kFgICAg9kFgJmDzwrAAYAZAIDD2QWBAIHD2QWBgIDD2QWAgIBD2QWAmYPDxYCHgdWaXNpYmxlaGRkAgUPZBYCAgMPFgIfAWgWAmYPZBYEAgIPZBYGAgEPFgIfAWhkAgMPFgIfAWhkAgUPFgIfAWhkAgMPDxYCHglBY2Nlc3NLZXkFAS9kZAIHD2QWAgIDD2QWAgIBD2QWBAIDD2QWAmYPDxYEHgRfIVNCAgIeCENzc0NsYXNzBRdtcy1wcm9tb3RlZEFjdGlvbkJ1dHRvbmRkAgUPDxYGHwFoHwMCAh8EBRdtcy1wcm9tb3RlZEFjdGlvbkJ1dHRvbmRkAhcPZBYEAgIPZBYCAgEPPCsABQEADxYCHg9TaXRlTWFwUHJvdmlkZXIFIUN1cnJlbnROYXZTaXRlTWFwUHJvdmlkZXJOb0VuY29kZWRkAggPZBYGAgEPFgIfAAsrBAFkAgcPFgIfAAsrBAFkAgsPFgIfAAsrBAFkGAIFJmN0bDAwJFBsYWNlSG9sZGVyTGVmdE5hdkJhciRDdXJyZW50TmF2Dw9kBQNSU1NkBTJjdGwwMCRQbGFjZUhvbGRlckhvcml6b250YWxOYXYkVG9wTmF2aWdhdGlvbk1lbnVWNA8PZAUESG9tZWR6MgkF9p+3qUHN1LymuSouPJ8t8efinN5u5oKwZPBtcA==" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+var MSOWebPartPageFormName = 'aspnetForm';
+var g_presenceEnabled = true;
+var g_wsaEnabled = false;
+var g_wsaQoSEnabled = false;
+var g_wsaQoSDataPoints = [];
+var g_wsaLCID = 1033;
+var g_wsaListTemplateId = 850;
+var g_wsaSiteTemplateId = 'MRWAINTERNET#0';
+var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002f", webAbsoluteUrl: "https:\u002f\u002fwww.mainroads.wa.gov.au", siteAbsoluteUrl: "https:\u002f\u002fwww.mainroads.wa.gov.au", serverRequestPath: "\u002fPages\u002fRSS.aspx", layoutsUrl: "_layouts\u002f15", webTitle: "Home", webTemplate: "10053", tenantAppVersion: "0", webLogoUrl: "_layouts\u002f15\u002fimages\u002fsiteicon.png", webLanguage: 1033, currentLanguage: 1033, currentUICultureName: "en-US", currentCultureName: "en-AU", clientServerTimeDelta: new Date("2016-11-23T01:04:03.6367434Z") - new Date(), siteClientTag: "45$$15.0.4569.1000", crossDomainPhotosEnabled:false, webUIVersion:15, webPermMasks:{High:0,Low:196609},pageListId:"{0e88b6a5-3680-45b8-9a03-3bbc507f5b89}",pageItemId:8, pagePersonalizationScope:1, alertsEnabled:true, siteServerRelativeUrl: "\u002f", allowSilverlightPrompt:'True'};document.onreadystatechange=fnRemoveAllStatus; function fnRemoveAllStatus(){removeAllStatus(true)};
+var g_MRWA_WfInitiate='_layouts/15/MRWA.Internet.Workflow/Workflows/PageApproval/Initiate.aspx?TemplateID={1df2aeda-b956-49a0-82f2-230c2f93d81c}';var g_MRWA_qWfInitiate='_layouts/15/MRWA.Internet.Workflow/Workflows/PageApproval/Initiate.aspx?TemplateID={732727d0-1eff-4849-8b41-d50612666cc2}';g_MRWA_HasAssignedApprovalTask=false
+function configuretrimpagecomponent(){ MRWA.Trim.UI.TrimPageComponent.instance.configure("MR","\\\\dacsrv217\\TrimMOSSTempUploadFolder\\","https://www.mainroads.wa.gov.au","https://www.mainroads.wa.gov.au"); }
+SP.SOD.executeOrDelayUntilScriptLoaded(configuretrimpagecomponent, 'sp.ui.trim.js');
+//]]>
+</script>
+
+<script src="/_layouts/15/blank.js?rev=ZaOXZEobVwykPO9g8hq%2F8A%3D%3D" type="text/javascript"></script>
+<script src="https://www.mainroads.wa.gov.au/_vti_bin/Files.asmx/js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() 
+        {
+          ExecuteOrDelayUntilScriptLoaded(
+            function()
+            {
+              var pairs = SP.ScriptHelpers.getDocumentQueryPairs();
+              var followDoc, itemId, listId, docName;
+              for (var key in pairs)
+              {
+                if(key.toLowerCase() == 'followdocument') 
+                  followDoc = pairs[key];
+                else if(key.toLowerCase() == 'itemid') 
+                  itemId = pairs[key];
+                else if(key.toLowerCase() == 'listid') 
+                  listId = pairs[key];
+                else if(key.toLowerCase() == 'docname') 
+                  docName = decodeURI(pairs[key]);
+              } 
+
+              if(followDoc != null && followDoc == '1' && listId!=null && itemId != null && docName != null)
+              {
+                SP.SOD.executeFunc('followingcommon.js', 'FollowDocumentFromEmail', function() 
+                { 
+                  FollowDocumentFromEmail(itemId, listId, docName);
+                });
+              }
+
+            }, 'SP.init.js');
+
+        });
+    })();(function(){
+
+        if (typeof(_spBodyOnLoadFunctions) === 'undefined' || _spBodyOnLoadFunctions === null) {
+            return;
+        }
+        _spBodyOnLoadFunctions.push(function() {
+
+            if (typeof(SPClientTemplates) === 'undefined' || SPClientTemplates === null || (typeof(APD_InAssetPicker) === 'function' && APD_InAssetPicker())) {
+                return;
+            }
+
+            var renderFollowFooter = function(renderCtx,  calloutActionMenu)
+            {
+                if (renderCtx.ListTemplateType == 700) 
+                    myDocsActionsMenuPopulator(renderCtx, calloutActionMenu);
+                else
+                    CalloutOnPostRenderTemplate(renderCtx, calloutActionMenu);
+
+                var listItem = renderCtx.CurrentItem;
+                if (typeof(listItem) === 'undefined' || listItem === null) {
+                    return;
+                }
+                if (listItem.FSObjType == 0) {
+                    calloutActionMenu.addAction(new CalloutAction({
+                        text: Strings.STS.L_CalloutFollowAction,
+                        tooltip: Strings.STS.L_CalloutFollowAction_Tooltip,
+                        onClickCallback: function (calloutActionClickEvent, calloutAction) {
+                            var callout = GetCalloutFromRenderCtx(renderCtx);
+                            if (!(typeof(callout) === 'undefined' || callout === null))
+                                callout.close();
+                            SP.SOD.executeFunc('followingcommon.js', 'FollowSelectedDocument', function() { FollowSelectedDocument(renderCtx); });
+                        }
+                    }));
+                }
+            };
+
+            var registerOverride = function(id) {
+                var followingOverridePostRenderCtx = {};
+                followingOverridePostRenderCtx.BaseViewID = 'Callout';
+                followingOverridePostRenderCtx.ListTemplateType = id;
+                followingOverridePostRenderCtx.Templates = {};
+                followingOverridePostRenderCtx.Templates.Footer = function(renderCtx) {
+                    var  renderECB;
+                    if (typeof(isSharedWithMeView) === 'undefined' || isSharedWithMeView === null) {
+                        renderECB = true;
+                    } else {
+                        var viewCtx = getViewCtxFromCalloutCtx(renderCtx);
+                        renderECB = !isSharedWithMeView(viewCtx);
+                    }
+                    return CalloutRenderFooterTemplate(renderCtx, renderFollowFooter, renderECB);
+                };
+                SPClientTemplates.TemplateManager.RegisterTemplateOverrides(followingOverridePostRenderCtx);
+            }
+            registerOverride(101);
+            registerOverride(700);
+        });
+    })();if (typeof(DeferWebFormInitCallback) == 'function') DeferWebFormInitCallback();//]]>
+</script>
+
+			
+				<!-- handles SharePoint scripts -->
+				
+				
+				<!-- controls the web parts and zones -->
+				
+				
+				<!-- this control is more navigation for mysites, otherwise it is empty -->
+				
+				
+				
+				<!-- =====  Begin Ribbon ============================================================ -->
+				<div id="ribbon-container" style="display: none">
+                
+				</div>
+				<!-- =====  End Ribbon and other Top Content ============================================================ -->
+
+				<!-- =====  Start Scrolling Body Area ============================================================ -->
+				
+				<!-- these two div id's are used to setup the main scrolling page area, they should stay if you are sticking the ribbon to the top -->
+				<div id="s4-workspace" class="s4-nosetwidth"><!-- NOTE: s4-nosetwidth is used when you are setting a fixed page width in css, remove for 100% -->
+				
+					<div id="s4-bodyContainer">
+				  
+						<div id="s4-titlerow" class="s4-pr s4-notdlg s4-titlerowhidetitle">
+					
+					
+							<!-- ===== Header ====================================================================================================== -->
+							<div id="header">
+							    <a class="wagov-logo" href="/" title="Government of Western Australia State Coat of Arms. Return to the Main Roads WA Home Page"><img src="/Style Library/MRWA_Internet/images/wagov_logo.png?v=20160609" alt="Government of Western Australia Logo"/></a>						 		
+							    <a class="mrwa-logo" href="/" title="Main Roads Western Australia Home Page"><img src="/Style Library/MRWA_Internet/images/mainroads_logo.png?v=20160609" alt="Main Roads Western Australia Logo"/></a>
+								<div class="topnav-container">
+									<ul class="links topnav">
+										<li class="signon"><span class="left"></span><a href="/OtherRoads/SSO/myaccount/Pages/ssomenu.aspx">My Account</a></li>
+										<li class="traffic"><a href="http://twitter.com/WA_Roads" title="Main Roads WA on Twitter (@WA_Roads)" target="_blank" aria-label="Main Roads Western Australia on Twitter">WA Roads</a></li>
+										<li class="traffic"><a href="http://twitter.com/perth_traffic" title="Main Roads WA on Twitter (@Perth_Traffic)" target="_blank" aria-label="Main Roads Traffic on Twitter">Perth Traffic</a></li>
+										<li class="webcam"><a target="_blank" href="https://mrapps.mainroads.wa.gov.au/MrwaPublicMaps" style="line-height: 25px">Cameras</a><span class="right"></span></li>
+									</ul>
+									<div class="search topnav"  role="search">
+                                        <span class="left"></span>
+                                        <div class="header-links-container">
+										    <ul class="header-links">
+											    
+<li><a href="https://www.mainroads.wa.gov.au/" title="Home">Accessibility</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/SiteMap.aspx" title="Sitemap">Sitemap</a></li><li><a href="https://www.mainroads.wa.gov.au/AboutMainRoads/ContactUs/" title="Contact Us">Contact Us</a></li>
+
+										    </ul>
+										    <a class="wagov-search" href="http://wa.gov.au/search/" title="Go to whole of WA Government search" name="search">Go to WA Gov Search</a>
+                                        </div>
+										<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div WebPartID="00000000-0000-0000-0000-000000000000" HasPers="true" id="WebPartWPQ1" width="100%" class="ms-WPBody noindex " OnlyForMePart="true" allowDelete="false" style="" ><div componentid="ctl00_SmallSearchInputBox1_csr" id="ctl00_SmallSearchInputBox1_csr"><div id="SearchBox" name="Control"><div class="ms-srch-sb ms-srch-sb-border" id="ctl00_SmallSearchInputBox1_csr_sboxdiv"><input type="text" value="Search All Pages" maxlength="2048" accessKey="S" title="Search All Pages" id="ctl00_SmallSearchInputBox1_csr_sbox" autocomplete="off" autocorrect="off" onkeypress="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {if (Srch.U.isEnterKey(String.fromCharCode(event.keyCode))) {$find('ctl00_SmallSearchInputBox1_csr').search($get('ctl00_SmallSearchInputBox1_csr_sbox').value);return Srch.U.cancelEvent(event);}})" onkeydown="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_SmallSearchInputBox1_csr');ctl.activateDefaultQuerySuggestionBehavior();})" onfocus="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_SmallSearchInputBox1_csr');ctl.hidePrompt();ctl.setBorder(true);})" onblur="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {var ctl = $find('ctl00_SmallSearchInputBox1_csr'); if (ctl){ ctl.showPrompt(); ctl.setBorder(false);}})" class="ms-textSmall ms-srch-sb-prompt ms-helperText"/><a title="Navigation" id="ctl00_SmallSearchInputBox1_csr_NavButton" onclick="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {$find('ctl00_SmallSearchInputBox1_csr').activateDefaultNavigationBehavior();return Srch.U.cancelEvent(event);})" href="javascript: {}" class="ms-srch-sb-navLink" ><img src="/_layouts/15/images/searchresultui.png?rev=23" class="ms-srch-sb-navImg" id="navImg" alt="Navigation" /></a><a title="Search" class="ms-srch-sb-searchLink" id="ctl00_SmallSearchInputBox1_csr_SearchLink" onclick="EnsureScriptFunc('Search.ClientControls.js', 'Srch.U', function() {$find('ctl00_SmallSearchInputBox1_csr').search($get('ctl00_SmallSearchInputBox1_csr_sbox').value);})" href="javascript: {}" ><img src="/_layouts/15/images/searchresultui.png?rev=23" class="ms-srch-sb-searchImg" id="searchImg" alt="Search" /></a><div class="ms-qSuggest-container ms-shadow" id="AutoCompContainer"><div id="ctl00_SmallSearchInputBox1_csr_AutoCompList"></div></div><div class="ms-qSuggest-container ms-shadow" id="NavDropdownListContainer"><div id="ctl00_SmallSearchInputBox1_csr_NavDropdownList"></div></div></div></div></div><noscript><div id="ctl00_SmallSearchInputBox1_noscript">It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.</div></noscript><div id="ctl00_SmallSearchInputBox1">
+
+	</div><div class="ms-clear"></div></div>
+</div>
+                                        <span class="right"></span>
+									</div>
+								</div>
+							</div>
+<!-- END Header -->
+														
+						
+							<!-- ===== Page Editing Status Bar ===================================================================================== -->
+							<div id="pageStatusBar" class="s4-status-s1"></div>
+						
+
+							<!-- ===== Alerts Webpart Zone ========================================================================================= -->
+                            <div class="alerts-wpzone">
+							    
+		
+	<menu class="ms-hide">
+	<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/15/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute('helpLink'), MenuWebPart.getAttribute('helpMode'))" text="Help" type="option" style="display:none">
+
+	</ie:menuitem>
+</menu>
+
+                            </div>
+
+							
+							<!-- ===== Main Nav ==================================================================================================== -->
+							<div id="main-nav" role="navigation"><div class="s4-tn-wrapper">
+							
+								
+									<div id="zz1_TopNavigationMenuV4" class="s4-tn noindex ms-core-listMenu-horizontalBox">
+	<ul id="zz2_RootAspMenu" class="root ms-core-listMenu-root static">
+		<li class="static selected"><a class="static selected menu-item ms-core-listMenu-item ms-displayInline ms-core-listMenu-selected ms-navedit-linkNode" tabindex="0" title="MainRoads" href="/Pages/default.aspx" accesskey="1"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a><ul class="static">
+			<li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/UsingRoads/Pages/UsingRoadsHome.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Using Roads</span></span></a><ul class="static">
+				<li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Road &amp; Traffic Information" href="/UsingRoads/RoadTrafficInformation/Pages/RoadTrafficInformation.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Road &amp; Traffic Information</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Heavy Vehicles" href="/UsingRoads/HeavyVehicles/Pages/HeavyVehiclesHome.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Heavy Vehicles</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Touring WA &amp; Maps" href="/UsingRoads/TouringWAMaps/Pages/TouringWAMaps.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Touring WA &amp; Maps</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Pedestrians &amp; Cyclists" href="/UsingRoads/PedestriansCyclists/Pages/PedestriansCyclists.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Pedestrians &amp; Cyclists</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/UsingRoads/Pages/PublicArt.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Public Art and Urban Design Trail</span></span></a></li>
+			</ul></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/BuildingRoads/Pages/BuildingRoadsHome.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Building Roads</span></span></a><ul class="static">
+				<li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Projects" href="/BuildingRoads/Projects/Pages/Projects.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Projects</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Contracting to Main Roads" href="/BuildingRoads/Contracting/Pages/Contracting.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Contracting to Main Roads</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Tender Preparation" href="/BuildingRoads/TenderPrep/Pages/TenderPrep.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Tender Preparation</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/BuildingRoads/StandardsTechnical/Pages/home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Standards and Technical</span></span></a></li>
+			</ul></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/OurRoads/Pages/OurRoads.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Our Roads</span></span></a><ul class="static">
+				<li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline new-window ms-navedit-linkNode" tabindex="0" href="https://project.mainroads.wa.gov.au/tcmp/Pages/default.aspx" target="_blank"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Traffic Congestion Management Program</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Facts and Figures" href="/OurRoads/Facts/Pages/Facts.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Facts and Figures</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Road Safety" href="/OurRoads/RoadSafety/Pages/RoadSafety.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Road Safety</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Temporary Traffic Management" href="/OurRoads/TrafficManagement/Pages/TrafficManagement.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Temporary Traffic Management</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Environment" href="/OurRoads/Environment/Pages/Environment.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Environment</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/OurRoads/Pages/WorksOnMainRoads.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Conducting Works on Roads</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/OurRoads/Pages/DevelopingLandorProjects.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Developing Land or Projects</span></span></a></li>
+			</ul></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/AboutMainRoads/Pages/AboutMainRoadsHome.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">About Main Roads</span></span></a><ul class="static">
+				<li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="About Us" href="/AboutMainRoads/AboutUs/Pages/AboutUsHome.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">About Us</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Contact Us" href="/AboutMainRoads/ContactUs/Pages/ContactUs.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Contact Us</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Our Role in the Regions" href="/AboutMainRoads/OurRoleRegions/Pages/home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Our Role in the Regions</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Our Commitments to You" href="/AboutMainRoads/ourCommitmentsToYou/Pages/OurCommitmentsToYou.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Our Commitments to You</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Our Minister" href="/AboutMainRoads/OurMinister/Pages/OurMinisterRedirect.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Our Minister</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Employment" href="/AboutMainRoads/Employment/Pages/Employment.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Employment</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" title="Publications" href="/AboutMainRoads/Publications/Pages/home.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Publications</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/AboutMainRoads/News/Pages/default.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">News</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/AboutMainRoads/Pages/FAQs.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">FAQs</span></span></a></li>
+			</ul></li>
+		</ul></li>
+	</ul>
+</div>
+									
+								
+								
+							</div></div><!-- END Main Nav -->			
+					
+						</div><!-- END s4-titlerow -->
+					
+						<div id="container">
+							<div id="containerWrap">
+							
+							
+								<div id="LeftNavAndContent">
+									<div class="top">
+									<div class="btm">
+									<div class="body">
+									
+									
+										<!-- ===== Left Navigation ================================================================================= -->
+										<div id="s4-leftpanel" class="s4-notdlg">
+                                            <div class="LeftNav-wrap">
+											<div id="LeftNav" role="complementary">
+												<!-- The quick launch bar / left navigation -->
+												
+													
+													
+													<div id="zz3_CurrentNav" class=" noindex ms-core-listMenu-verticalBox">
+	<ul id="zz4_RootAspMenu" class="root ms-core-listMenu-root static">
+		<li class="static"><span class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Recent</span></span></span></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Pages/complaintsFeedback.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Contact Us</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Pages/Glossary.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Glossary</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Pages/Help.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Help</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Pages/Privacy.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Privacy</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Pages/Alerts.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Roadworks, Incidents &amp; Events</span></span></a></li><li class="static selected"><a class="static selected menu-item ms-core-listMenu-item ms-displayInline ms-core-listMenu-selected ms-navedit-linkNode" tabindex="0" href="/Pages/RSS.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">RSS</span><span class="ms-hidden">Currently selected</span></span></a></li><li class="static"><a class="static menu-item ms-core-listMenu-item ms-displayInline ms-navedit-linkNode" tabindex="0" href="/Pages/SiteMap.aspx"><span class="additional-background ms-navedit-flyoutArrow"><span class="menu-item-text">Site Map</span></span></a></li>
+	</ul>
+</div>
+												
+											</div><!-- END LeftNav -->
+                                            </div>
+										
+											<!-- The small menu attached Quick Launch bar. Used only on very specific pages -->
+											
+										</div><!-- END s4-leftpanel -->
+						
+							
+										<!-- ===== Main Body ======================================================================================= -->
+										<div class="s4-ca" id="MSO_ContentTable">
+				
+											<!-- page description -->
+												
+								
+											<!-- mso_contentdiv required, helps SharePoint put the web part editing pane in the main body on the right -->
+											<div id="ctl00_MSO_ContentDiv">
+												<div class="content-header">
+												    <div id="breadcrumb" class="s4-notdlg">
+													    <span class="hide">You Are Here:</span>
+													    
+														<ul id="ctl00_PlaceHolderStaticBreadcrumb_ListSiteMapPath2" class="s4-breadcrumb">
+	<li class="s4-breadcrumbRootNode"><span class="s4-breadcrumb-arrowcont"><img src="/Style%20Library/MRWA_Internet/images/breadcrumb_separator.png" alt="" style="display:inline-block;padding-top:4px;" /></span><a title="MainRoads" class="s4-breadcrumbRootNode" href="/Pages/default.aspx">Home</a><ul class="s4-breadcrumbRootNode"><li class="s4-breadcrumbCurrentNode"><span class="s4-breadcrumb-arrowcont"><img src="/Style%20Library/MRWA_Internet/images/breadcrumb_separator.png" alt="" style="display:inline-block;padding-top:4px;" /></span><a class="s4-breadcrumbCurrentNode" href="/Pages/RSS.aspx">RSS</a></li></ul></li>
+</ul>
+													    
+												    </div><!-- END Breadcrumb -->
+
+												    <!-- Content Place Holder for Search Centre -->
+												    
+
+												    <ul class="page-controls addthis_toolbox addthis_default_style">
+													    <li class="fontsize"><a href="#" class="decrease"><span class="hide">Decrease Font Size</span></a><a href="#" class="increase"><span class="hide">Increase Font Size</span></a></li>
+													    <li class="print"><a href="#" onclick="javascript:window.print()"><span class="hide">Print</span></a></li>
+													    <li class="addthis-btn"><a class="addthis_button_facebook"></a></li>
+													    <li class="addthis-btn"><a class="addthis_button_twitter"></a></li>
+													    <li class="addthis-btn"><a class="addthis_button_email"></a></li>
+													    <!--<li class="addthis-btn"><a class="addthis_button_compact"></a></li>-->
+												    </ul>
+												    <!-- AddThis Button BEGIN -->
+                                                    <div>
+	
+                                                       <script type="text/javascript">var addthis_config = { "data_track_addressbar": false, "data_track_clickback": false };</script>
+                                                       <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4e3f4eef180d178f" async="async"></script>
+                                                    
+</div>
+                                                    <!-- AddThis Button END -->
+                                                </div>
+
+												<!-- page content loads from the pages and pages layout -->
+												<div id="content" class="page-content-main" role="main">
+                                                    <div id="notificationArea" class="ms-notif-box"></div>
+													
+
+	<h1>
+		RSS
+	</h1>
+	
+	<div class="wp-zone-sidebar">
+		
+	</div>
+	
+    
+
+	<div id="ctl00_PlaceHolderMain_ctl01_label" style='display:none'>Page Content</div><div id="ctl00_PlaceHolderMain_ctl01__ControlWrapper_RichHtmlField" class="ms-rtestate-field" style="display:inline" aria-labelledby="ctl00_PlaceHolderMain_ctl01_label"><h3 class="mrwa-rteElement-H3"><span>What is RSS?</span> </h3>
+<p>RSS is a process of&#160;distributing (or syndicating)&#160;news and other information from websites.</p>
+<p>RSS feeds provide free updates to your computer at designated intervals when content is updated on a website.</p>
+<p>&#160;</p>
+<h3 class="mrwa-rteElement-H3">Which feeds&#160;are provided by MRWA?</h3>
+<p>The MRWA website currently&#160;provides RSS feeds for the following areas&#58;</p>
+<ul><li><a title="Link to Alerts page, on this website" href="/Pages/Alerts.aspx">Alerts</a></li>
+<li><a title="Link to News page, on this website" href="/AboutMainRoads/News/Pages/default.aspx">News</a></li></ul>
+<p>In the future, RSS functionality will be expanded to other sections of the website.</p>
+<p>&#160;</p>
+<blockquote><div><h3 class="mrwa-rteElement-H3">How do I subscribe to an RSS feed?</h3>
+<p>To receive RSS feeds you&#160;will need&#160;an RSS feed reader (sometimes called a news aggregator).</p>
+<h5 class="mrwa-rteElement-H5">Web Browser</h5>
+<p class="mrwa-rteElement-H5">Some&#160;web browsers have a built-in capacity to subscribe to RSS feeds as a favourite or bookmark. More information is available from&#160;your web browser. (For example, see the <a title="Link to Windows Explorer website, opening in a new window" href="http&#58;//windows.microsoft.com/en-AU/windows-vista/Using-feeds-RSS" target="_blank">Internet Explorer RSS page</a>.)</p>
+<h5 class="mrwa-rteElement-H5">Web-based Readers</h5>
+<p class="mrwa-rteElement-H5">Web-based RSS feed readers&#160;enable access to RSS feeds regardless of which&#160;web browser is available or&#160;which device the user is on.</p>
+<h5 class="mrwa-rteElement-H5">Desktop</h5>
+<p class="mrwa-rteElement-H5">There are many&#160;&#160;RSS feed readers that can be downloaded as desktop software. Many of these are available for free when used for non-commercial purposes.</p>
+<h5 class="mrwa-rteElement-H5">Mobile Devices</h5>
+<p class="mrwa-rteElement-H5">There are many RSS&#160;feed readers&#160;provided specifically for mobile devices such as mobile phone, pads and tablets. Check the application store (for example App Store or Google Play) on your device for an &quot;RSS feed reader&quot;.</p>
+<h5 class="mrwa-rteElement-H5">Email Program</h5>
+<p class="mrwa-rteElement-H5">Email programs such as&#160;<a title="Link to Office Microsoft website, opening in a new window" href="http&#58;//office.microsoft.com/en-AU/outlook-help/introduction-to-rss-HA001230463.aspx" target="_blank">Outlook</a> also have inbuilt&#160;RSS feed readers.&#160;&#160;This enables an integrated approach to emails and RSS news or alerts.</p>
+<p class="mrwa-rteElement-H5">&#160;</p>
+<p class="mrwa-rteElement-H5">Main Roads does not endorse or provide technical support for any third party application.</p>
+<p class="mrwa-rteElement-H5">&#160;</p></div></blockquote></div>
+
+    
+    
+	<div class="modified-date">
+		<strong>Modified: </strong><span>19 Nov 2014</span>
+	</div>
+
+<div style='display:none' id='hidZone'></div>
+												</div>												
+											</div><!-- END MSO_ContentDiv -->											
+										</div><!-- END MSO_ContentTable -->																						
+									</div>
+									</div>
+									</div>
+								</div><!-- #LeftNavAndContent -->	
+														
+								<!-- ===== Sidebar ================================================================================================= -->
+								<div id="sidebar">
+									
+								</div>
+
+							</div><!-- END containerWrap -->
+						</div><!-- END container -->
+						<!-- the developer dashboard can be turned on by administrators and shows debuging and performance info for the page -->
+						<div id="DeveloperDashboard" class="ms-developerdashboard">
+							
+						</div>
+										
+						<!-- ===== Sidebar ========================================================================================================= -->
+						<div id="footer" class="s4-notdlg">
+                            <p class="alignleft"><a href="http://wa.gov.au/" title="WA Government Website" class="govlogo">wa.gov.au</a></p>
+                            <div class="alignright" role="contentinfo">
+                                <ul class="dark alignright">
+                                    
+<li><a href="https://www.mainroads.wa.gov.au/" title="Home">Home</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/DisclaimerCopyright.aspx" title="Disclaimer & Copyright">Disclaimer & Copyright</a></li><li><a href="https://www.mainroads.wa.gov.au/AboutMainRoads/ContactUs/" title="Contact Us">Contact Us</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/RSS.aspx" title="RSS">RSS</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/Privacy.aspx" title="Privacy Policy">Privacy</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/Glossary.aspx" title="Glossary">Glossary</a></li><li><a href="https://www.mainroads.wa.gov.au/OtherRoads/Subscriptions/Pages/Menu.aspx" title="Subscriptions">Subscriptions</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/complaintsFeedback.aspx" title="Complaints & Feedback">Complaints & Feedback</a></li><li><a href="https://www.mainroads.wa.gov.au/Pages/Help.aspx" title="Help">Help</a></li>
+
+			                    </ul>
+			            		<div class="light clearright">
+                                    All contents copyright Government of Western Australia. All rights reserved.
+			            		</div>
+				            </div>
+            			</div><!-- END Footer -->
+						
+					</div><!-- END s4-bodyContainer -->
+				</div><!-- END s4-workspace-->
+				
+				
+				<!-- =====  End scrolling body area with these two previous div's ============================================================ -->
+				
+				<!-- The form digest security control used to for security validation on forms -->
+				
+					<script type="text/javascript">//<![CDATA[
+        var formDigestElement = document.getElementsByName('__REQUESTDIGEST')[0];
+        if (!((formDigestElement == null) || (formDigestElement.tagName.toLowerCase() != 'input') || (formDigestElement.type.toLowerCase() != 'hidden') ||
+            (formDigestElement.value == null) || (formDigestElement.value.length <= 0)))
+        {
+            formDigestElement.value = '0xFC62F51F9ECA096D7E8D43FDA74D1BBCF40ECD0A70E785ABE8D628F23CBF4C6C78578E2FA45BD965F8A8E9CD4E17BEE51128632130B3533DD6EBECC274BE5BEE,23 Nov 2016 01:04:03 -0000';
+            g_updateFormDigestPageLoaded = new Date();
+        }
+        //]]>
+        </script>
+				
+				
+				<!-- =====  Hidden Placeholders ============================================================ -->
+						
+				   <!-- =====  These placeholders don't output anything very often OOTB ========== -->
+					<!-- The navigation menu that is inside the top navigation bar. -->
+					
+					
+			
+
+<script type="text/javascript">
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;window.g_updateFormDigestPageLoaded = new Date(); window.g_updateFormDigestPageLoaded.setDate(window.g_updateFormDigestPageLoaded.getDate() -5);var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{0e88b6a5-3680-45b8-9a03-3bbc507f5b89}",itemId: 8,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fPages",itemPermissions:{High:0,Low:196609}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+};
+function __RegisterWebPartPageCUI() {
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js");}
+_spBodyOnLoadFunctionNames.push("__RegisterWebPartPageCUI");var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';
+ExecuteOrDelayUntilScriptLoaded(
+function()
+{
+var initInfo = 
+{
+itemPermMasks: {High:0,Low:196609},
+listPermMasks: {High:0,Low:196609},
+listId: "0e88b6a5-3680-45b8-9a03-3bbc507f5b89",
+itemId: 8,
+workflowsAssociated: true,
+editable: false,
+doNotShowProperties: false,
+enableVersioning: true
+};
+SP.Ribbon.DocLibAspxPageComponent.registerWithPageManager(initInfo);
+},
+"sp.ribbon.js");
+var g_disableCheckoutInEditMode = false;
+var _spWebPermMasks = {High:0,Low:196609};
+            ExecuteOrDelayUntilScriptLoaded(
+                function() 
+                {                    
+                    Srch.ScriptApplicationManager.get_current().states = {"webUILanguageName":"en-US","webDefaultLanguageName":"en-US","contextUrl":"https://www.mainroads.wa.gov.au","contextTitle":"Home","supportedLanguages":[{"id":1025,"label":"Arabic"},{"id":1093,"label":"Bengali"},{"id":1026,"label":"Bulgarian"},{"id":1027,"label":"Catalan"},{"id":2052,"label":"Chinese (Simplified)"},{"id":1028,"label":"Chinese (Traditional)"},{"id":1050,"label":"Croatian"},{"id":1029,"label":"Czech"},{"id":1030,"label":"Danish"},{"id":1043,"label":"Dutch"},{"id":1033,"label":"English"},{"id":1035,"label":"Finnish"},{"id":1036,"label":"French"},{"id":1031,"label":"German"},{"id":1032,"label":"Greek"},{"id":1095,"label":"Gujarati"},{"id":1037,"label":"Hebrew"},{"id":1081,"label":"Hindi"},{"id":1038,"label":"Hungarian"},{"id":1039,"label":"Icelandic"},{"id":1057,"label":"Indonesian"},{"id":1040,"label":"Italian"},{"id":1041,"label":"Japanese"},{"id":1099,"label":"Kannada"},{"id":1042,"label":"Korean"},{"id":1062,"label":"Latvian"},{"id":1063,"label":"Lithuanian"},{"id":1086,"label":"Malay"},{"id":1100,"label":"Malayalam"},{"id":1102,"label":"Marathi"},{"id":1044,"label":"Norwegian"},{"id":1045,"label":"Polish"},{"id":1046,"label":"Portuguese (Brazil)"},{"id":2070,"label":"Portuguese (Portugal)"},{"id":1094,"label":"Punjabi"},{"id":1048,"label":"Romanian"},{"id":1049,"label":"Russian"},{"id":3098,"label":"Serbian (Cyrillic)"},{"id":2074,"label":"Serbian (Latin)"},{"id":1051,"label":"Slovak"},{"id":1060,"label":"Slovenian"},{"id":3082,"label":"Spanish (Spain)"},{"id":2058,"label":"Spanish (Mexico)"},{"id":1053,"label":"Swedish"},{"id":1097,"label":"Tamil"},{"id":1098,"label":"Telugu"},{"id":1054,"label":"Thai"},{"id":1055,"label":"Turkish"},{"id":1058,"label":"Ukrainian"},{"id":1056,"label":"Urdu"},{"id":1066,"label":"Vietnamese"}],"navigationNodes":[{"id":0,"name":"All Pages","url":"/Search/Pages/Results.aspx","promptString":"Search All Pages"},{"id":1,"name":"Glossary","url":"/Search/Pages/GlossaryResults.aspx","promptString":"Search Glossary"},{"id":2,"name":"Standards","url":"/Search/Pages/StandardsResults.aspx","promptString":"Search Standards"}],"searchCenterUrl":"/Search/Pages/","showAdminDetails":false,"defaultPagesListName":"Pages","isSPFSKU":false,"userAdvancedLanguageSettingsUrl":"/_layouts/15/regionalsetng.aspx?type=user\u0026Source=https%3A%2F%2Fwww%2Emainroads%2Ewa%2Egov%2Eau%2FPages%2FRSS%2Easpx\u0026ShowAdvLang=1","defaultQueryProperties":{"culture":3081,"uiLanguage":3081,"summaryLength":180,"desiredSnippetLength":90,"enableStemming":true,"enablePhonetic":false,"enableNicknames":false,"trimDuplicates":true,"bypassResultTypes":false,"enableInterleaving":true,"enableQueryRules":true,"processBestBets":true,"enableOrderingHitHighlightedProperty":false,"hitHighlightedMultivaluePropertyLimit":-1,"processPersonalFavorites":true}};
+                    Srch.U.trace(null, 'SerializeToClient', 'ScriptApplicationManager state initialized.');
+                }, 'Search.ClientControls.js');
+                    ExecuteOrDelayUntilScriptLoaded(
+                        function() 
+                        {
+                            if ($isNull($find('ctl00_SmallSearchInputBox1_csr')))
+                            {
+                                var sb = $create(Srch.SearchBox, {"delayLoadTemplateScripts":true,"initialPrompt":"Search All Pages","messages":[],"navigationNodes":[{"id":0,"name":"All Pages","url":"/Search/Pages/Results.aspx","promptString":"Search All Pages"},{"id":1,"name":"Glossary","url":"/Search/Pages/GlossaryResults.aspx","promptString":"Search Glossary"},{"id":2,"name":"Standards","url":"/Search/Pages/StandardsResults.aspx","promptString":"Search Standards"}],"queryGroupNames":["MasterPage"],"renderTemplateId":"~sitecollection/_catalogs/masterpage/Display Templates/Search/Control_SearchBox_Compact.js","resultsPageAddress":"/Search/Pages/Results.aspx","serverInitialRender":true,"showDataErrors":true,"showNavigation":true,"states":{},"tryInplaceQuery":false}, null, null, $get("ctl00_SmallSearchInputBox1_csr"));
+                                sb.activate('Search All Pages', 'ctl00_SmallSearchInputBox1_csr_sbox', 'ctl00_SmallSearchInputBox1_csr_sboxdiv', 'ctl00_SmallSearchInputBox1_csr_NavButton', 'ctl00_SmallSearchInputBox1_csr_AutoCompList', 'ctl00_SmallSearchInputBox1_csr_NavDropdownList', 'ctl00_SmallSearchInputBox1_csr_SearchLink', 'ms-srch-sbprogress', 'ms-srch-sb-prompt ms-helperText');
+                            }
+                        }, 'Search.ClientControls.js');g_QuickLaunchControlIds.push("zz1_TopNavigationMenuV4");_spBodyOnLoadFunctionNames.push('QuickLaunchInitDroppable'); var g_zz1_TopNavigationMenuV4 = null; function init_zz1_TopNavigationMenuV4() { if (g_zz1_TopNavigationMenuV4 == null) g_zz1_TopNavigationMenuV4 = $create(SP.UI.AspMenu, null, null, null, $get('zz1_TopNavigationMenuV4')); } ExecuteOrDelayUntilScriptLoaded(init_zz1_TopNavigationMenuV4, 'SP.Core.js');
+g_QuickLaunchControlIds.push("zz3_CurrentNav");_spBodyOnLoadFunctionNames.push('QuickLaunchInitDroppable'); var g_zz3_CurrentNav = null; function init_zz3_CurrentNav() { if (g_zz3_CurrentNav == null) g_zz3_CurrentNav = $create(SP.UI.AspMenu, null, null, null, $get('zz3_CurrentNav')); } ExecuteOrDelayUntilScriptLoaded(init_zz3_CurrentNav, 'SP.Core.js');
+//]]>
+</script>
+</form>
+			
+			<!-- extra form for some instances -->
+			
+					
+			<!-- Starter Master Page by Randy Drisgill (http://blog.drisgill.com) - Jan 27, 2009 -->
+			<!-- Remove this credit if you want, but if you leave it in I will appreciate it! -->
+			
+		</div><!-- END Main1200 -->
+		
+	</body>
+</html>
