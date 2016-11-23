@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" version="2.0">
+  <channel>
+    <title>Test Bushfire Incident one</title>
+    <link>
+      http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml
+    </link>
+    <description>Fire Incidents as at Wednesday, 10 September 2015</description>
+    <language>en-AU</language>
+    <atom:link rel="self" type="application/rss+xml" href="http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <webMaster>info</webMaster>
+    <pubDate>Wed, 10 Sep 2015 04:45:30 GMT</pubDate>
+    <ttl>61</ttl>
+    <item>
+      <category>Warning</category>
+      <title>Test Bushfire</title>
+      <pubDate>Tue, 10 Sep 2015 21:57:00 GMT</pubDate>
+      <link>
+        http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml
+      </link>
+      <description>
+        <![CDATA[
+          ALERT LEVEL: Warning <br /> LOCATION: Various<>?/:'";{[]}_-=+~`!@#$%^&*()1234567890.<br /> COUNCIL AREA: Auburn <br /> STATUS: Under control <br /> TYPE: ’t–e‟s…t—? <br /> FIRE: No╚Ã¦W'♪@0Áó3♫ÔÍAÊ <br /> SIZE: 0 ha <br /> RESPONSIBLE AGENCY: <html><p>word</p></html> UPDATED: 10 Sep 2015 07:57<br /> <br <a href='http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml' target='_blank'> more</a>
+        ]]>
+      </description>
+      <guid isPermaLink="false">tag:http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml,2015-09-10:212345</guid>
+      <georss:point>-34.4345 146.8456</georss:point>
+    </item>
+    <item>
+      <category>Warning</category>
+      <title>Test Bushfire Incident two</title>
+      <pubDate>Wed, 10 Sep 2015 04:24:00 GMT</pubDate>
+      <link>
+        http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml
+      </link>
+      <description>
+        <![CDATA[
+          ALERT LEVEL: Warning <br /> LOCATION: Various<>?/:'";{[]}_-=+~`!@#$%^&*()1234567890.<br /> COUNCIL AREA: Auburn <br /> STATUS: Under control <br /> TYPE: ’t–e‟s…t—? <br /> FIRE: No╚Ã¦W'♪@0Áó3♫ÔÍAÊ <br /> SIZE: 0 ha <br /> RESPONSIBLE AGENCY: <html><p>word</p></html> UPDATED: 10 Sep 2015 07:57<br /> <br <a href='http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml' target='_blank'> more</a>
+        ]]>
+      </description>
+      <guid isPermaLink="false">tag:http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml,2015-09-10:201234</guid>
+      <georss:point>-34.4765 146.8345</georss:point>
+    </item>
+    <item>
+      <category>Warning</category>
+      <title>Test Bushfire Incident three</title>
+      <pubDate>Tue, 10 Sep 2015 09:57:00 GMT</pubDate>
+      <link>
+        http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml
+      </link>
+      <description>
+        <![CDATA[
+          ALERT LEVEL: ADVICE <br /> LOCATION: Various<>?/:'";{[]}_-=+~`!@#$%^&*()1234567890.<br /> COUNCIL AREA: Auburn <br /> STATUS: Under control <br /> TYPE: ’t–e‟s…t—? <br /> FIRE: No╚Ã¦W'♪@0Áó3♫ÔÍAÊ <br /> SIZE: 0 ha <br /> RESPONSIBLE AGENCY: <html><p>word</p></html> UPDATED: 10 Sep 2015 07:57<br /> <br <a href='http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml' target='_blank'> more</a>
+        ]]>
+      </description>
+      <guid isPermaLink="false">tag:http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml,2015-09-10:200123</guid>
+      <georss:point>-34.4023 146.81345</georss:point>
+    </item>
+  </channel>
+</rss>

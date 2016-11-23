@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss xmlns:georss="http://www.georss.org/georss" version="2.0">
+<channel>
+<title>Incidents in ACT GeoRSS feed</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>http://esa.act.gov.au/feeds/currentincidents.xml
+</description><pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<lastBuildDate>25 Sep 2013 04:07:00 EST</lastBuildDate>
+<generator>FME(R) 2013 SP2 Version: 2013.7.4.13475</generator>
+<item>
+<title>HOUSE FIRE (NO INJURIES) - KINGSTON</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: HOUSE FIRE (NO INJURIES) - KINGSTON&lt;br /&gt;Location:  KENNEDY STREET, KINGSTON&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: KINGSTON&lt;br /&gt;Type: HOUSE FIRE (NO INJURIES)&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042292-24092013&lt;br /&gt;Updated: 24 Sep 2013 10:08:47&lt;br /&gt;Time of Call: 24 Sep 2013 09:09:17
+</description><guid>042292-24092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.3194068315253 149.145134320072</georss:point>
+</item>
+<item>
+<title>MOTOR VEHICLE ACCIDENT - PHILLIP</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: MOTOR VEHICLE ACCIDENT - PHILLIP&lt;br /&gt;Location: WESTFIELD WODEN CARPARK, WESTFIELD, KELTIE STREET, PHILLIP&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: PHILLIP&lt;br /&gt;Type: MOTOR VEHICLE ACCIDENT&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042322-24092013&lt;br /&gt;Updated: 24 Sep 2013 11:59:39&lt;br /&gt;Time of Call: 24 Sep 2013 11:57:45
+</description><guid>042322-24092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.3452418542209 149.085505414348</georss:point>
+</item>
+<item>
+<title>MOTOR VEHICLE ACCIDENT - YARRALUMLA</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: MOTOR VEHICLE ACCIDENT - YARRALUMLA&lt;br /&gt;Location: National Zoo and Aquarium, LADY DENMAN DRIVE, YARRALUMLA&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: YARRALUMLA&lt;br /&gt;Type: MOTOR VEHICLE ACCIDENT&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042346-24092013&lt;br /&gt;Updated: 24 Sep 2013 14:58:28&lt;br /&gt;Time of Call: 24 Sep 2013 14:38:30
+</description><guid>042346-24092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.3015015050061 149.07778640632</georss:point>
+</item>
+<item>
+<title>MOTOR VEHICLE ACCIDENT - Parkes</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: MOTOR VEHICLE ACCIDENT - Parkes&lt;br /&gt;Location: Commonwealth Ave, Parkes&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: Parkes&lt;br /&gt;Type: MOTOR VEHICLE ACCIDENT&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042369-24092013&lt;br /&gt;Updated: 24 Sep 2013 17:30:43&lt;br /&gt;Time of Call: 24 Sep 2013 17:01:38
+</description><guid>042369-24092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.2871365221892 149.129034579659</georss:point>
+</item>
+<item>
+<title>HOUSE FIRE (NO INJURIES) - BANKS</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: HOUSE FIRE (NO INJURIES) - BANKS&lt;br /&gt;Location:  READER COURT, BANKS&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: BANKS&lt;br /&gt;Type: HOUSE FIRE (NO INJURIES)&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042398-24092013&lt;br /&gt;Updated: 24 Sep 2013 21:03:09&lt;br /&gt;Time of Call: 24 Sep 2013 20:42:13
+</description><guid>042398-24092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.4709710415434 149.093317020063</georss:point>
+</item>
+<item>
+<title>CAR FIRE - AMAROO</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: CAR FIRE - AMAROO&lt;br /&gt;Location: AMAROO DISTRICT PLAYING FIELDS, KATHERINE AVENUE, AMAROO&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: AMAROO&lt;br /&gt;Type: CAR FIRE&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042410-25092013&lt;br /&gt;Updated: 25 Sep 2013 01:43:51&lt;br /&gt;Time of Call: 25 Sep 2013 01:10:36
+</description><guid>042410-25092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.1645044835958 149.127835361381</georss:point>
+</item>
+<item>
+<title>CAR FIRE - DUNLOP</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: CAR FIRE - DUNLOP&lt;br /&gt;Location: TOFT STREET, DUNLOP&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: DUNLOP&lt;br /&gt;Type: CAR FIRE&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042412-25092013&lt;br /&gt;Updated: 25 Sep 2013 02:40:51&lt;br /&gt;Time of Call: 25 Sep 2013 02:07:03
+</description><guid>042412-25092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.1918498115128 149.017485320052</georss:point>
+</item>
+<item>
+<title>MOTOR VEHICLE ACCIDENT - CITY</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: MOTOR VEHICLE ACCIDENT - CITY&lt;br /&gt;Location:  LONDON CIRCUIT, CITY&lt;br /&gt;Status: Out / Completed&lt;br /&gt;Suburb: CITY&lt;br /&gt;Type: MOTOR VEHICLE ACCIDENT&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042415-25092013&lt;br /&gt;Updated: 25 Sep 2013 03:22:21&lt;br /&gt;Time of Call: 25 Sep 2013 02:17:38
+</description><guid>042415-25092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.2837920884875 149.131214397435</georss:point>
+</item>
+<item>
+<title>HAZARD REDUCTION BURN - PADDYS RIVER DISTRICT</title>
+<link>http://esa.act.gov.au/feeds/currentincidents.xml</link>
+<description>Incident: HAZARD REDUCTION BURN - PADDYS RIVER DISTRICT&lt;br /&gt;Location: BOOROOMBA ROAD, TIDBINBILLA ROAD, PADDYS RIVER DISTRICT&lt;br /&gt;Status: On Scene&lt;br /&gt;Suburb: PADDYS RIVER DISTRICT&lt;br /&gt;Type: HAZARD REDUCTION BURN&lt;br /&gt;Agency: ACT Fire&lt;br /&gt;Incident Number: 042355-24092013&lt;br /&gt;Updated: 24 Sep 2013 15:44:18&lt;br /&gt;Time of Call: 24 Sep 2013 15:43:06
+</description><guid>042355-24092013</guid>
+<pubDate>25 Sep 2013 04:07:00 EST</pubDate>
+<georss:point>-35.500352999996 149.051626000006</georss:point>
+</item>
+</channel>
+</rss>

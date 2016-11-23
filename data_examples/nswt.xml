@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://livetraffic.rta.nsw.gov.au/css/TIWClient-1.16.css"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Live Traffic NSW - Regional NSW North</title>
+	<link rel="self"
+		href="http://livetraffic.rta.nsw.gov.au/traffic/rss/reg-north.atom" />
+	<author>
+		<name>Transport for NSW</name>
+		<uri>http://livetraffic.com</uri>
+	</author>
+	<subtitle>This traffic region starts north of the Hawkesbury River
+		Bridge at Brooklyn and extends as far north as Tweed Heads and the
+		Queensland border. It covers the Central Coast and extends to Wisemans
+		Ferry in the south. The area is bounded by Gunnedah and Merriwa in the
+		west and includes the towns of Grafton, Armidale and Tamworth. There
+		are currently 2 hazards in this region.</subtitle>
+	<id>http://livetraffic.rta.nsw.gov.au/traffic/rss/reg-north.atom</id>
+	<rights>Copyright: Transport for NSW; Licence:
+		http://livetraffic.com/#dev</rights>
+	<updated>2013-09-26T07:19:35Z</updated>
+	<entry>
+		<title>BUSH FIRE - SOUTH TAREE Pacific Hwy - 4km south of Old Bar
+			turn-off</title>
+		<link rel="alternate" href="http://livetraffic.rta.nsw.gov.au/#FIRE_448253" />
+		<id>http://livetraffic.rta.nsw.gov.au/#FIRE_448253</id>
+		<updated>2013-09-26T07:16:31Z</updated>
+		<published>2013-09-26T02:46:07Z</published>
+		<content type="html">&lt;div class="tiw-row"&gt;&lt;div
+			class="tiw-rowIncident"&gt;&lt;span
+			class="tiw-rowRegionLink"&gt;Regional NSW - North&lt;/span&gt;&lt;div
+			class="tiw-rowSuburbStreetTitle"&gt;&lt;span
+			class="tiw-rowCategoryIcon"&gt;&lt;img
+			src="http://livetraffic.rta.nsw.gov.au/images/icons/hazard/weather-bush-fire.gif"
+			alt="Fire" title="Fire"/&gt;&lt;/span&gt;&lt;span
+			class="tiw-rowSuburbTitle"&gt;South
+			Taree&lt;/span&gt;&amp;nbsp;&lt;span
+			class="tiw-rowStreetTitle"&gt;Pacific
+			Hwy&lt;/span&gt;&amp;nbsp;&lt;span
+			class="tiw-rowLocationQualifier"&gt;-&lt;/span&gt;&amp;nbsp;&lt;span
+			class="tiw-rowStreetTitle"&gt;4km south of Old Bar
+			turn-off&lt;/span&gt;&lt;/div&gt;&lt;div
+			class="tiw-rowMediaSubTitle"&gt;&lt;span
+			class="tiw-rowMediaMainCategory-noMedia"&gt;BUSH
+			FIRE&lt;/span&gt;&lt;/div&gt;&lt;table class="tiw-rowTable"&gt;&lt;tr
+			class="tiw-rowTimestamp"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;Started&amp;nbsp;today 12:46pm,
+			last&amp;nbsp;checked today 5:16pm&lt;/td&gt;&lt;/tr&gt;&lt;tr
+			class="tiw-rowAffectedDirection"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;Impact:&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;&lt;img
+			src="http://livetraffic.rta.nsw.gov.au/images/icons/pop-up-bubbles/road-closed.gif"
+			alt="Impact" title="Impact"/&gt;&amp;nbsp;Highway closed in both
+			directions.&lt;/td&gt;&lt;/tr&gt;&lt;tr
+			class="tiw-rowDiversion"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;Diversions:&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;Southbound traffic is being diverted off
+			the highway at Cundletown interchange (Northern Taree exit). There is
+			no access back to the Pacific Highway southbound from Taree.
+			&lt;br&gt;Northbound traffic is being turned around at Bayel Drive to
+			head south again on the Pacific Highway.&lt;/td&gt;&lt;/tr&gt;&lt;tr
+			class="tiw-rowAttending"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;Attending:&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;Emergency service(s)
+			&lt;/td&gt;&lt;/tr&gt;&lt;tr class="tiw-rowAdvice"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;Advice:&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;Delay journey&lt;br/&gt;Avoid the
+			area&lt;/td&gt;&lt;/tr&gt;&lt;tr class="tiw-rowOtherAdvice"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;Other Info:&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;&lt;b&gt;Motorists are advised to use the
+			New England Highway as an alternative.&lt;/b&gt;&lt;br&gt;Expected to
+			remain this way for several
+			hours.&lt;br/&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr
+			class="tiw-rowLocation"&gt;&lt;td
+			class="tiw-rowColumn1"&gt;Location:&lt;/td&gt;&lt;td
+			class="tiw-rowColumn2"&gt;&lt;a
+			href="http://livetraffic.rta.nsw.gov.au/#FIRE_448253"
+			class="viewonmap"&gt;View on
+			map&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&lt;/div&gt;
+		</content>
+	</entry>	
+</feed>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <category>Emergency Incident Information</category>
+    <title>NSW Rural Fire Service Current Incidents</title>
+    <link>http://www.rfs.nsw.gov.au/feeds/majorIncidents.xml</link>
+    <description>Fire incidents as at Fri, 10 Jun 2016 04:20:36 GMT</description>
+    <copyright>State of New South Wales (NSW Rural Fire Service) 2016</copyright>
+    <language>en-AU</language>
+    <webMaster>webmaster@rfs.nsw.gov.au (NSW RFS Webmaster)</webMaster>
+    <generator>NSWRFS.Feeds 1.1.4.0</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <ttl>60</ttl>
+    <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+    <link href="http://www.rfs.nsw.gov.au/feeds/majorIncidents.xml" rel="self" type="application/rss+xml" xmlns="http://www.w3.org/2005/Atom" />
+    <item>
+      <title>Brassils Creek Rd, Toorooka</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/229037</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Brassils Creek Rd, Toorooka, NSW 2440 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 312 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jun 2016 09:01]]></description>
+      <category>Advice</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/229037</guid>
+      <point xmlns="http://www.georss.org/georss">-30.9047902285465 152.549393893651</point>
+      <polygon xmlns="http://www.georss.org/georss">-30.901099522 152.540995715 -30.903181745 152.54348649 -30.9026533219999 152.546518687 -30.902751023 152.55075018 -30.901102307 152.553643253 -30.899990294 152.555860507 -30.899952453 152.55691864 -30.899462236 152.559084892 -30.899511386 152.56134484 -30.8999244299999 152.560862066 -30.9001276819999 152.559658911 -30.900831814 152.559415242 -30.9012125949999 152.559431159 -30.9014747959999 152.55960062 -30.9018098769999 152.559946949 -30.902408994 152.560254894 -30.903543494 152.559715386 -30.903820718 152.559521712 -30.904867092 152.559973282 -30.905023905 152.560417536 -30.9058530739999 152.560474312 -30.905909994 152.56040161 -30.909298555 152.561540674 -30.9092972509999 152.561155931 -30.909212356 152.560579195 -30.908961426 152.559955125 -30.9085462589999 152.559812745 -30.9072607639999 152.559818628 -30.906357843 152.559474163 -30.9051802499999 152.557736164 -30.9057991359999 152.556819572 -30.9068766349999 152.556622236 -30.907705161 152.556377954 -30.909608705 152.55521492 -30.9075693359999 152.553060176 -30.9073978069999 152.551425821 -30.90921954 152.550599732 -30.909631707 152.549876399 -30.9090877689999 152.548484232 -30.908916013 152.546801768 -30.910405468 152.545832865 -30.911272566 152.544770688 -30.9117248109999 152.543662365 -30.9113900139999 152.542798251 -30.910391052 152.541744928 -30.90938849 152.539681677 -30.909184078 152.538450728 -30.908447516 152.537902988 -30.9078895759999 152.537981552 -30.907323483 152.537758044 -30.9068503029999 152.538361697 -30.906375335 152.538464208 -30.9057351559999 152.538520911 -30.904242327 152.538528073 -30.903495741 152.538483564 -30.9026653619999 152.538199006 -30.901586348 152.537963738 -30.9005069899999 152.537632296 -30.8995532389999 152.53763688 -30.89893849 152.537247113 -30.8981183679999 152.537501609 -30.897855646 152.538366356 -30.90014167 152.539846147 -30.901099522 152.540995715</polygon>
+    </item>
+    <item>
+      <title>John Renshaw Dr, Buchanan</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/228893</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: John Renshaw Dr, Buchanan, NSW 2323 <br />COUNCIL AREA: Cessnock <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2016 15:38]]></description>
+      <category>Advice</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/228893</guid>
+      <point xmlns="http://www.georss.org/georss">-32.826636 151.539837</point>
+    </item>
+    <item>
+      <title>Upper Smiths Creek Rd, Kundabung</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/229026</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Upper Smiths Creek Rd, Kundabung, NSW 2441 <br />COUNCIL AREA: Kempsey <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2016 21:30]]></description>
+      <category>Advice</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/229026</guid>
+      <point xmlns="http://www.georss.org/georss">-31.227616 152.820433</point>
+    </item>
+    <item>
+      <title>ASSIST SES</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/228793</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Picton, Wollondilly <br />COUNCIL AREA: Wollondilly <br />STATUS: Being controlled <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2016 05:29]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/228793</guid>
+      <point xmlns="http://www.georss.org/georss">-34.1698076189999 150.612612963</point>
+    </item>
+    <item>
+      <title>Kula Rd, Medowie</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/228998</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Kula Rd, Medowie, NSW 2318 <br />COUNCIL AREA: Port Stephens <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jun 2016 10:24]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/228998</guid>
+      <point xmlns="http://www.georss.org/georss">-32.718132102806 151.853314511196</point>
+    </item>
+    <item>
+      <title>missing person Lithgow</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/229045</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: state mine gully Lithgow <br />COUNCIL AREA: Lithgow <br />STATUS: Out of control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: NSW Police <br />UPDATED: 10 Jun 2016 10:56]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/229045</guid>
+      <point xmlns="http://www.georss.org/georss">-33.4438966049999 150.200958251</point>
+    </item>
+    <item>
+      <title>Newell Hwy, Narrandera</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/228989</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Newell Hwy, Narrandera, NSW 2700 <br />COUNCIL AREA: Narrandera <br />STATUS: Out of control <br />TYPE: MVA/Transport <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 9 Jun 2016 11:27]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/228989</guid>
+      <point xmlns="http://www.georss.org/georss">-34.9112908789999 146.355206967</point>
+    </item>
+    <item>
+      <title>Old Putty Rd, Singleton</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/229054</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Old Putty Rd, Singleton, NSW 0000 <br />COUNCIL AREA: Singleton <br />STATUS: Out of control <br />TYPE: Medical <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jun 2016 12:53]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/229054</guid>
+      <point xmlns="http://www.georss.org/georss">-32.564884 151.167528</point>
+    </item>
+    <item>
+      <title>Ridge St, Catalina</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/229033</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: 56 Ridge St, Catalina, NSW 2536 <br />COUNCIL AREA: Eurobodalla <br />STATUS: Being controlled <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Fire and Rescue NSW <br />UPDATED: 10 Jun 2016 04:38]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/229033</guid>
+      <point xmlns="http://www.georss.org/georss">-35.7256409999999 150.190664</point>
+    </item>
+    <item>
+      <title>Settlement Dr, Wadalba</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/229057</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: 42 Settlement Dr, Wadalba, NSW 2259 <br />COUNCIL AREA: Wyong <br />STATUS: Out of control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 10 Jun 2016 14:04]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/229057</guid>
+      <point xmlns="http://www.georss.org/georss">-33.2672979999999 151.455688</point>
+    </item>
+    <item>
+      <title>Storm Damage</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/228444</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Northern Beaches LGA <br />COUNCIL AREA: Warringah <br />STATUS: Being controlled <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 8 Jun 2016 10:25]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Fri, 10 Jun 2016 04:20:36 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/228444</guid>
+      <point xmlns="http://www.georss.org/georss">-33.763805713 151.237878799</point>
+    </item>
+  </channel>
+</rss>

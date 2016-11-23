@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>CFS Current Incidents</name>
+    <open>1</open>
+    <description>Incidents attended by CFS today</description>
+    <Style id="FireOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-bushfire-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FireSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-bushfire-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FireClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-bushfire-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="OtherOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-other-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="OtherSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-other-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="OtherClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-other-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FloodOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-flood-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FloodSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-flood-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="FloodClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-flood-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="GasOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-gas-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="GasSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-gas-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="GasClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-gas-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HazmatOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-hazmat-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HazmatSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-hazmat-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="HazmatClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-hazmat-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="MarineOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-marine-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="MarineSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-marine-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="MarineClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-marine-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="AirOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-air-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="AirSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-air-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="AirClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-air-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="StructureOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-structure-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="StructureSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-structure-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="StructureClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-structure-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="EarthquakeOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-earthquake-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="EarthquakeSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-earthquake-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="EarthquakeClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-earthquake-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ThunderOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-thunder-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ThunderSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-thunder-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="ThunderClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-thunder-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="VehicleOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-vehicle-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="VehicleSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-vehicle-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="VehicleClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-vehicle-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="BurnOffOpenIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-burnoff-open.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="BurnOffSafeIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-burnoff-safe.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="BurnOffClosedIcon">
+      <IconStyle>
+        <Icon>
+          <href>http://www.cfs.sa.gov.au/custom/criimson/icons/icon-burnoff-closed.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166185">
+        <name>GOLF COURSE ROAD, BEACHPORT</name>
+        <description>Building Fire&lt;br&gt;First Reported: Friday, 10 Jun 2016 12:58:00&lt;br&gt;Status: GOING&lt;br&gt;Region: 5</description>
+        <styleUrl>#StructureOpenIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>140.010019492582,-37.4762626413849,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166162">
+        <name>UNNAMED , QUALCO</name>
+        <description>Rubbish Fire&lt;br&gt;First Reported: Friday, 10 Jun 2016 09:58:00&lt;br&gt;Status: GOING&lt;br&gt;Region: 3</description>
+        <styleUrl>#OtherOpenIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>139.890981193675,-34.1027440027558,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166176">
+        <name>MASLIN ROAD, MACDONALD PARK</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Friday, 10 Jun 2016 11:25:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 2</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.639583718892,-34.6744813500364,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166168">
+        <name>BROADACRES DRIVE, PENFIELD GARDENS</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Friday, 10 Jun 2016 10:36:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 2</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.626065562174,-34.665030390199,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166167">
+        <name>SHORT ROAD, PENFIELD GARDENS</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Friday, 10 Jun 2016 10:02:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 2</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.623767287525,-34.6574453219136,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166165">
+        <name>MCKAY ROAD, VIRGINIA</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Friday, 10 Jun 2016 10:00:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 2</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.590431931563,-34.6725393374146,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166155">
+        <name>JULIAN ROAD, MACDONALD PARK</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Friday, 10 Jun 2016 09:21:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 2</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.63691913496,-34.6705994536212,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166152">
+        <name>STURT HWY/LINDSAY POINT RD , PARINGA</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Friday, 10 Jun 2016 08:57:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 3</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>140.794482180579,-34.1835252484188,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1164837">
+        <name>CLEGGETT ROAD, LITTLEHAMPTON</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Wednesday, 01 Jun 2016 10:04:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 1</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.858548443798,-35.0493545891947,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1164647">
+        <name>MARBLE HILL RD/LINDNER AV , ASHTON</name>
+        <description>Controlled Burn Off&lt;br&gt;First Reported: Monday, 30 May 2016 18:22:00&lt;br&gt;Status: CONTROLLED&lt;br&gt;Region: 1</description>
+        <styleUrl>#BurnOffClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.744649244619,-34.9332358634823,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166138">
+        <name>SCOTT CREEK ROAD, HEATHFIELD</name>
+        <description>Tree Down&lt;br&gt;First Reported: Friday, 10 Jun 2016 04:19:00&lt;br&gt;Status: COMPLETE&lt;br&gt;Region: 1</description>
+        <styleUrl>#OtherClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.712256334244,-35.0357072659281,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166136">
+        <name>MOSQUITO HILL ROAD, MOUNT JAGGED</name>
+        <description>Tree Down&lt;br&gt;First Reported: Friday, 10 Jun 2016 04:08:00&lt;br&gt;Status: COMPLETE&lt;br&gt;Region: 1</description>
+        <styleUrl>#OtherClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.645990658571,-35.4460217513747,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <name>CFS Current Incidents</name>
+      <description>Incidents attended by CFS today</description>
+      <Placemark id="1166146">
+        <name>MOORHOUSE TERRACE, RIVERTON</name>
+        <description>Fire Alarm&lt;br&gt;First Reported: Friday, 10 Jun 2016 07:55:00&lt;br&gt;Status: COMPLETE&lt;br&gt;Region: 2</description>
+        <styleUrl>#OtherClosedIcon</styleUrl>
+        <Point>
+          <altitudeMode>relativeToGround</altitudeMode>
+          <coordinates>138.74320482671,-34.1599885111388,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

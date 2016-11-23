@@ -1,0 +1,828 @@
+HTTP/1.1 200 OK
+Server: Apache
+Last-Modified: Wed, 13 Jan 2016 01:44:02 GMT
+ETag: "ac959b7b015d14ce-9422-5292d4e077f59"
+Accept-Ranges: bytes
+Content-Length: 37922
+Content-Type: application/rss+xml
+X-Cache-Lookup: HIT from CFA-Proxy01-MXCVM25796001:80
+Cache-Control: max-age=1
+Expires: Wed, 13 Jan 2016 01:45:03 GMT
+Date: Wed, 13 Jan 2016 01:45:02 GMT
+Connection: keep-alive
+
+<rss xmlns:datetime="http://exslt.org/dates-and-times" xmlns:georss="http://www.georss.org/georss" version="2.0">
+<channel>
+<title>Statewide Current Incident Summary</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm?tm=13012016120000</link>
+<description>Current activity (over the previous 5 hours) is listed below.</description>
+<language>en-us</language>
+<pubDate>Wed, 13 Jan 2016 01:44:02 GMT</pubDate>
+<lastBuildDate></lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>Whispir RSS Engine</generator>
+<managingEditor>no-reply@whispir.com</managingEditor>
+<webMaster>no-reply@whispir.com</webMaster>
+<ttl>5</ttl>
+<item>
+<title>WAURN PONDS, PIGDONS RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 07&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; WAURN PONDS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; PIGDONS RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:40:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:40:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:40:00 GMT</pubDate>
+<guid>1557335</guid>
+<georss:collection>
+<georss:point>-38.197221952862655 144.29800547863724</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>CARRUM DOWNS, </title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CARRUM DOWNS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; &lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:40:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:40:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:40:00 GMT</pubDate>
+<guid>1557334</guid>
+<georss:collection>
+<georss:point>-38.09245016932062 145.15271086323713</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>ST ANDREWS, CALEDONIA ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 14&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; ST ANDREWS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; CALEDONIA ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:39:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; NON STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:39:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:39:00 GMT</pubDate>
+<guid>1557333</guid>
+<georss:collection>
+<georss:point>-37.6013037276534 145.27328486684155</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>CARRUM DOWNS, </title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CARRUM DOWNS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; &lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:37:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:37:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:37:00 GMT</pubDate>
+<guid>1557332</guid>
+<georss:collection>
+<georss:point>-38.10916373185753 145.16171072909475</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>SHEPPARTON, GRAHAM ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 22&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; SHEPPARTON&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; GRAHAM ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:36:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 3&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:36:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:36:00 GMT</pubDate>
+<guid>1557331</guid>
+<georss:collection>
+<georss:point>-36.36264553179634 145.40463287121491</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>SEAFORD, </title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; SEAFORD&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; &lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:34:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:34:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:34:00 GMT</pubDate>
+<guid>1557330</guid>
+<georss:collection>
+<georss:point>-38.108981785852535 145.1616012368204</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>SEAFORD, FRANKSTON FWY</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; SEAFORD&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; FRANKSTON FWY&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:33:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 4&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:33:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:33:00 GMT</pubDate>
+<guid>1557329</guid>
+<georss:collection>
+<georss:point>-38.10265243160258 145.14021706752595</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>HODDLES CREEK, GEMBROOK-LAUNCHING PLACE RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 13&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; HODDLES CREEK&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; GEMBROOK-LAUNCHING PLACE RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:25:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:25:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:25:00 GMT</pubDate>
+<guid>1557325</guid>
+<georss:collection>
+<georss:point>-37.845068910500146 145.59600474819675</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>FERNSHAW, MAROONDAH HWY</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 13&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; FERNSHAW&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MAROONDAH HWY&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:19:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 4&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:19:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:19:00 GMT</pubDate>
+<guid>1557324</guid>
+<georss:collection>
+<georss:point>-37.59115580705411 145.6422327644088</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>BROWNS PLAINS, MURRAY VALLEY HWY</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 24&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; BROWNS PLAINS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MURRAY VALLEY HWY&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 04:49:00 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 04:49:00 AM&lt;br&gt;
+			</description>
+<pubDate>Tue, 12 Jan 2016 17:49:00 GMT</pubDate>
+<guid>1557270</guid>
+<georss:collection>
+<georss:point>-36.04464946954437 146.61587308635234</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>WYE RIVER, WYE RIVER - JAMIESON TRACK</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; OTWAY&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; WYE RIVER&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; WYE RIVER - JAMIESON TRACK&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 11:52:00 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 2515.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 138&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 19/12/15 04:10:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 00:52:00 GMT</pubDate>
+<guid>1552223</guid>
+<georss:collection>
+<georss:point>-38.58791420200824 143.88633622624417</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>8KM N OF MURRUNGOWAR, MURRUNGOWAR - THE STRAND</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; SNOWY&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 8KM N OF MURRUNGOWAR&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MURRUNGOWAR - THE STRAND&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 11/01/16 05:02:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTAINED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 6.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 01/01/16 04:20:00 PM&lt;br&gt;
+			</description>
+<pubDate>Mon, 11 Jan 2016 06:02:00 GMT</pubDate>
+<guid>1555260</guid>
+<georss:collection>
+<georss:point>-37.55507966238499 148.69367861294083</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>LENEVA, LENEVA - BREWERS RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 24&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; LENEVA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; LENEVA - BREWERS RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 12/01/16 09:46:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; LARGE&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 7&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 12/01/16 01:43:00 PM&lt;br&gt;
+			</description>
+<pubDate>Tue, 12 Jan 2016 10:46:00 GMT</pubDate>
+<guid>1557147</guid>
+<georss:collection>
+<georss:point>-36.2276166631986 146.81390476484933</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>ULLINA, ULLINA-KOOROOCHEANG RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 15&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; ULLINA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; ULLINA-KOOROOCHEANG RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 12/01/16 07:39:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 12/01/16 07:22:00 PM&lt;br&gt;
+			</description>
+<pubDate>Tue, 12 Jan 2016 08:39:00 GMT</pubDate>
+<guid>1557205</guid>
+<georss:collection>
+<georss:point>-37.281359478710066 143.92873067882599</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>BROADMEADOWS, MAYGAR BVD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 14&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; BROADMEADOWS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MAYGAR BVD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 12/01/16 07:01:00 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 12&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 11/01/16 12:05:00 PM&lt;br&gt;
+			</description>
+<pubDate>Mon, 11 Jan 2016 20:01:00 GMT</pubDate>
+<guid>1556967</guid>
+<georss:collection>
+<georss:point>-37.68426909032075 144.94084075042457</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>MACARTHUR, MT ECCLES RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 05&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; MACARTHUR&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MT ECCLES RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 09/01/16 04:11:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 09/01/16 11:03:00 AM&lt;br&gt;
+			</description>
+<pubDate>Sat, 9 Jan 2016 05:11:00 GMT</pubDate>
+<guid>1556620</guid>
+<georss:collection>
+<georss:point>-38.057858234505844 141.92457214937932</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>NEERIM EAST, NEERIM EAST-MCKENZIE RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; LATROBE&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; NEERIM EAST&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; NEERIM EAST-MCKENZIE RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 09:42:00 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 0.30 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/01/16 11:30:00 AM&lt;br&gt;
+			</description>
+<pubDate>Tue, 12 Jan 2016 22:42:00 GMT</pubDate>
+<guid>1556774</guid>
+<georss:collection>
+<georss:point>-37.939979799663625 146.02924635056948</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>LORNE, LORNE - DELANEYS ROAD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; OTWAY&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; LORNE&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; LORNE - DELANEYS ROAD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 12/01/16 12:23:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 9.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 19/12/15 04:30:00 PM&lt;br&gt;
+			</description>
+<pubDate>Tue, 12 Jan 2016 01:23:00 GMT</pubDate>
+<guid>1552229</guid>
+<georss:collection>
+<georss:point>-38.52881437130202 143.8346528705461</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>41KM NW OF DARGO, WONNANGATTA - DRY RIVER</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MACALISTER&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 41KM NW OF DARGO&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; WONNANGATTA - DRY RIVER&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 11/01/16 10:27:00 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 10.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 01/01/16 08:29:00 PM&lt;br&gt;
+			</description>
+<pubDate>Sun, 10 Jan 2016 23:27:00 GMT</pubDate>
+<guid>1555321</guid>
+<georss:collection>
+<georss:point>-37.184899667828084 146.81635913015992</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>14KM N OF COONGULLA, BEN CRUACHAN - AVON RIVER</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MACALISTER&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 14KM N OF COONGULLA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; BEN CRUACHAN - AVON RIVER&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 08/01/16 05:31:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; UNKNOWN&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 01/01/16 05:38:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 8 Jan 2016 06:31:00 GMT</pubDate>
+<guid>1555275</guid>
+<georss:collection>
+<georss:point>-37.76364313542712 146.8637577229455</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>9.5KM W OF LICOLA, MOUNT USEFUL - GREEN HILLS ROA</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MACALISTER&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 9.5KM W OF LICOLA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MOUNT USEFUL - GREEN HILLS ROA&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 08/01/16 05:30:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 3.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 01/01/16 05:07:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 8 Jan 2016 06:30:00 GMT</pubDate>
+<guid>1555271</guid>
+<georss:collection>
+<georss:point>-37.62482515118107 146.51610890134867</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>16 KM NW OF DARGO, DARGO - CROOKED RIVER RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MACALISTER&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 16 KM NW OF DARGO&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; DARGO - CROOKED RIVER RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 08/01/16 05:27:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 4.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 01/01/16 04:38:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 8 Jan 2016 06:27:00 GMT</pubDate>
+<guid>1555263</guid>
+<georss:collection>
+<georss:point>-37.39145842506017 147.03050231908819</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>14KM NORTH OF BRIAGOLONG, WOOLENOOK - TOGGLE HILL</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MACALISTER&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 14KM NORTH OF BRIAGOLONG&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; WOOLENOOK - TOGGLE HILL&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 03/01/16 05:24:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 0.50 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 01/01/16 05:46:00 PM&lt;br&gt;
+			</description>
+<pubDate>Sun, 3 Jan 2016 06:24:00 GMT</pubDate>
+<guid>1555282</guid>
+<georss:collection>
+<georss:point>-37.71143053271598 147.0578623273062</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>15 KM NORTH GLENMAGGIE, AVON WILDERNESS-RAZOR BACK WAL</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MACALISTER&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 15 KM NORTH GLENMAGGIE&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; AVON WILDERNESS-RAZOR BACK WAL&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 31/12/15 01:46:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; CONTROLLED&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 2.00 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 23/12/15 05:00:00 PM&lt;br&gt;
+			</description>
+<pubDate>Thu, 31 Dec 2015 02:46:00 GMT</pubDate>
+<guid>1553282</guid>
+<georss:collection>
+<georss:point>-37.71303982072437 146.77875703522673</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>CRAIGIEBURN, </title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 14&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CRAIGIEBURN&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; &lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:35:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; GRASS&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:28:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:35:00 GMT</pubDate>
+<guid>1557327</guid>
+<georss:collection>
+<georss:point>-37.57951885408259 144.92671087216496</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>SOUTH GEELONG, MOORABOOL ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 07&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; SOUTH GEELONG&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MOORABOOL ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:24:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:13:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:24:00 GMT</pubDate>
+<guid>1557320</guid>
+<georss:collection>
+<georss:point>-38.159975042016946 144.3546258666205</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>MORDIALLOC, ELLIOT ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; MORDIALLOC&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; ELLIOT ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:24:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; FALSE ALARM&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:14:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:24:00 GMT</pubDate>
+<guid>1557321</guid>
+<georss:collection>
+<georss:point>-37.996803531369764 145.0942108727342</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>OFFICER, SIDING AV</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; OFFICER&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; SIDING AV&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:21:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; NON STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:15:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:21:00 GMT</pubDate>
+<guid>1557322</guid>
+<georss:collection>
+<georss:point>-38.06616666374771 145.4125370496695</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>PANMURE, WARRUMYEA RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 05&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; PANMURE&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; WARRUMYEA RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:17:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; NON STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 10:29:00 AM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:17:00 GMT</pubDate>
+<guid>1557305</guid>
+<georss:collection>
+<georss:point>-38.30395799645857 142.678907239239</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>DALYSTON, LOWER POWLETT RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; DALYSTON&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; LOWER POWLETT RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:17:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; FALSE ALARM&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 11:55:00 AM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:17:00 GMT</pubDate>
+<guid>1557316</guid>
+<georss:collection>
+<georss:point>-38.59081745402184 145.53522321155586</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>6 KMS SSW SHEPPARTON AIRPORT, KIALLA WEST-MOIRA PARK 3</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; GOULBURN&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 6 KMS SSW SHEPPARTON AIRPORT&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; KIALLA WEST-MOIRA PARK 3&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:27:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 0.01 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:23:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:27:00 GMT</pubDate>
+<guid>1557328</guid>
+<georss:collection>
+<georss:point>-36.481536913306634 145.36682492294787</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>16 KMS NNW PICOLA, BARMAH NP -TOP ISLAND 1</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; GOULBURN&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; 16 KMS NNW PICOLA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; BARMAH NP -TOP ISLAND 1&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:18:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; BUSHFIRE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; 0.01 HA.&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:11:00 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:18:00 GMT</pubDate>
+<guid>1557323</guid>
+<georss:collection>
+<georss:point>-35.85679736469401 145.00655730924578</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>MIDDLE PARK, RICHARDSON ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; MIDDLE PARK&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; RICHARDSON ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:40:35 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; False Alarm&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:40:35 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:40:35 GMT</pubDate>
+<guid>160103894</guid>
+<georss:collection>
+<georss:point>-37.84780408649829 144.95800472521682</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>CRAIGIEBURN, CRAIGIEBURN</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CRAIGIEBURN&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; CRAIGIEBURN&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:35:32 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Non Structure Fire&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:35:32 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:35:32 GMT</pubDate>
+<guid>160103896</guid>
+<georss:collection>
+<georss:point>-37.57951337321663 144.92671190365238</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>CARLTON, LYGON ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CARLTON&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; LYGON ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:28:37 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Non Structure Fire&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Under Control&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:28:37 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:28:37 GMT</pubDate>
+<guid>160103892</guid>
+<georss:collection>
+<georss:point>-37.79341366838535 144.96793580367193</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>PRESTON, MURRAY RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; PRESTON&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MURRAY RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:23:38 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Incident&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:23:38 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:23:38 GMT</pubDate>
+<guid>160103890</guid>
+<georss:collection>
+<georss:point>-37.74094816280374 145.02813881753056</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>HAWTHORN, POWER ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; HAWTHORN&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; POWER ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 12:03:48 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Incident&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 12:03:48 PM&lt;br&gt;
+			</description>
+<pubDate>Wed, 13 Jan 2016 01:03:48 GMT</pubDate>
+<guid>160103880</guid>
+<georss:collection>
+<georss:point>-37.823517804577385 145.02579561546057</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>BUNDOORA, BUNDOORA</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; BUNDOORA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; BUNDOORA&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 13/01/16 10:51:21 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Incident&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Under Control&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 13/01/16 10:51:21 AM&lt;br&gt;
+			</description>
+<pubDate>Tue, 12 Jan 2016 23:51:21 GMT</pubDate>
+<guid>160103856</guid>
+<georss:collection>
+<georss:point>-37.69667649773982 145.0407433879468</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>BROADMEADOWS, MAYGAR BVD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; BROADMEADOWS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; MAYGAR BVD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 12/01/16 07:01:13 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Structure Fire&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Under Control&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 12/01/16 07:01:13 AM&lt;br&gt;
+			</description>
+<pubDate>Mon, 11 Jan 2016 20:01:13 GMT</pubDate>
+<guid>160103151</guid>
+<georss:collection>
+<georss:point>-37.684261381598425 144.94085071459307</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>SEPARATION CREEK, JAMIESON TRK</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; SEPARATION CREEK&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; JAMIESON TRK&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 06/01/16 08:11:56 AM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Non Structure Fire&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 06/01/16 08:11:56 AM&lt;br&gt;
+			</description>
+<pubDate>Tue, 5 Jan 2016 21:11:56 GMT</pubDate>
+<guid>151208657</guid>
+<georss:collection>
+<georss:point>-38.59498494395218 143.901335563108</georss:point>
+</georss:collection>
+</item>
+</channel>
+</rss>

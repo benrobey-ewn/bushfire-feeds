@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:georss="http://www.georss.org/georss" version="2.0">
+	<channel>
+		<title>Incidents in ACT GeoRSS feed</title>
+		<link>http://scrape.dev.ewn.com.au/Bushfire-Traffic/traffictest.xml</link>
+		<description>http://scrape.dev.ewn.com.au/Bushfire-Traffic/traffictest.xml</description>
+		<pubDate>10 Sep 2015 10:03:00 EST</pubDate>
+		<lastBuildDate>10 Sep 2015 10:03:00 EST</lastBuildDate>
+		<generator>FME(R) 2013 SP2 Version: 2013.7.4.13475</generator>
+		<item>
+			<title>MOTOR VEHICLE ACCIDENT - PARKES</title>
+			<link>http://scrape.dev.ewn.com.au/Bushfire-Traffic/traffictest.xml</link>
+			<description>
+				<![CDATA[
+				Incident: MOTOR VEHICLE ACCIDENT - PARKES
+				<br />
+				Location: COMMONWEALTH AVENUE, COMMONWEALTH AVENUE BRIDGE, ’t–e‟s…t—? 
+				<br />
+				Status: Out / Completed
+				<br />
+				Suburb: PARKES
+				<br />
+				Type: <>?/:;{[]}_-=+~`!@#$%^*()1234567890.
+				<br />
+				Agency: Fire
+				<br />
+				Incident Number: 042392-09092015
+				<br />
+				Updated: 09 Sep 2015 14:07:56
+				<br />
+				Time of Call: 09 Sep 2015 12:31:26
+				]]>
+			</description>
+			<guid>042392-09092016</guid>
+			<pubDate>10 Sep 2015 10:03:00 EST</pubDate>
+			<georss:point>-35.2862089999953 149.128119000008</georss:point>
+		</item>
+		<item>
+			<title>MOTOR VEHICLE ACCIDENT - REID</title>
+			<link>http://scrape.dev.ewn.com.au/Bushfire-Traffic/traffictest.xml</link>
+			<description>
+				Incident: MOTOR VEHICLE ACCIDENT - REID
+				<br />
+				Location: ELIMATTA STREET, ALLAMBEE STREET, REID
+				<br />
+				Status: Out / Completed
+				<br />
+				Suburb: REID
+				<br />
+				Type: MOTOR VEHICLE ACCIDENT
+				<br />
+				Agency: Fire
+				<br />
+				Incident Number: 042426-09092015
+				<br />
+				Updated: 09 Sep 2015 16:41:33
+				<br />
+				Time of Call: 09 Sep 2015 15:53:39
+			</description>
+			<guid>042426-09090125</guid>
+			<pubDate>10 Sep 2015 10:03:00 EST</pubDate>
+			<georss:point>-35.27815468 149.140746789</georss:point>
+		</item>
+		<item>
+			<title>STRUCTURE FIRE - DICKSON</title>
+			<link>http://scrape.dev.ewn.com.au/Bushfire-Traffic/traffictest.xml</link>
+			<description>
+				Incident: STRUCTURE FIRE - DICKSON
+				<br />
+				Location: DICKSON COLLEGE, DICKSON COLLEGE, PHILLIP AVENUE, DICKSON
+				<br />
+				Status: Out / Completed
+				<br />
+				Suburb: DICKSON
+				<br />
+				Type: STRUCTURE FIRE 1 TO 3 FLOORS
+				<br />
+				Agency: Fire
+				<br />
+				Incident Number: 042439-09092015
+				<br />
+				Updated: 09 Sep 2015 17:19:52
+				<br />
+				Time of Call: 09 Sep 2015 17:00:49
+			</description>
+			<guid>042439-090905401</guid>
+			<pubDate>10 Sep 2015 10:03:00 EST</pubDate>
+			<georss:point>-35.24940001346 149.153611136548</georss:point>
+		</item>
+	</channel>
+</rss>

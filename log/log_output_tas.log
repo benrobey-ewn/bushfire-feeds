@@ -1,0 +1,280 @@
+HTTP/1.1 200 OK
+X-Powered-By: JSP/2.2
+Server: GlassFish Server Open Source Edition 3.1.2.2
+Content-Type: text/xml;charset=UTF-8
+Content-Length: 15755
+Date: Wed, 13 Jan 2016 01:45:02 GMT
+X-Varnish: 708668307 708668051
+Age: 7
+Via: 1.1 varnish
+Connection: keep-alive
+Cache-Control: no-store, no-cache, proxy-revalidate, must-revalidate, max-age=0, s-maxage=0
+Expires: Sat, 01 Jan 2000 00:00:01 GMT
+Vary: Accept-Encoding
+
+
+
+
+    
+
+
+
+
+
+
+
+<rss version="2.0" xmlns:georss="http://www.georss.org/georss" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Current Alerts List throughout Tasmania</title>
+        <link>http://www.fire.tas.gov.au/Show?pageId=colCurrentBushfires</link>
+        <atom:link href="http://www.fire.tas.gov.au/Show?pageId=colBushfireSummariesRss" rel="self" type="application/rss+xml" />
+        <description>This information is updated at 9:00 am, midday and 5:00 pm unless significant fire activity occurs.</description>
+        <language>en-us</language>
+        <pubDate>Wed, 13 Jan 2016 12:44:55 +1100</pubDate>
+        <webMaster>tfsonline@fire.tas.gov.au</webMaster>
+        <docs>http://www.fire.tas.gov.au/Show?pageId=xmlFeedsHome</docs>
+        <ttl>60</ttl>
+        
+            <item>
+                <title>Lady Bay Road, Southport</title>
+                <link>http://www.fire.tas.gov.au/a/20621</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-12:235835</guid>
+                <pubDate>Wed, 13 Jan 2016 07:01:16 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: S<br /> LOCATION: Lady Bay Road, Southport<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 0.3 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/20621">http://www.fire.tas.gov.au/a/20621</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 07:01:16 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-43.43999079153234 146.9861104848248</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Union Bridge Road, Paradise</title>
+                <link>http://www.fire.tas.gov.au/a/20458</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-11:235799</guid>
+                <pubDate>Wed, 13 Jan 2016 07:03:11 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: NW<br /> LOCATION: Union Bridge Road, Paradise<br /> STATUS: Going<br /> TYPE: VEGETATION FIRE<br /> SIZE: 10 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/20458">http://www.fire.tas.gov.au/a/20458</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 07:03:11 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.48569958245549 146.3381516496416</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Macquarie Heads Road, STRAHAN</title>
+                <link>http://www.fire.tas.gov.au/i/235786</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-11:235786</guid>
+                <pubDate>Mon, 11 Jan 2016 11:39:03 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: NW<br /> LOCATION: Macquarie Heads Road, STRAHAN<br /> STATUS: Contained<br /> TYPE: VEGETATION FIRE<br /> SIZE: Not Available<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/i/235786">http://www.fire.tas.gov.au/i/235786</a><br /> RESPONSIBLE AGENCY: Parks &amp; Wildlife Service<br /> UPDATED: Mon, 11 Jan 2016 11:39:03 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.19807140455761 145.28793117646094</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Farrellys Road, Lilydale</title>
+                <link>http://www.fire.tas.gov.au/a/20047</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-09:235715</guid>
+                <pubDate>Wed, 13 Jan 2016 07:03:51 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Farrellys Road, Lilydale<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 4 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/20047">http://www.fire.tas.gov.au/a/20047</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 07:03:51 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.207103646241755 147.23252052364185</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Midland Highway, Oatlands</title>
+                <link>http://www.fire.tas.gov.au/a/20062</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-09:235711</guid>
+                <pubDate>Wed, 13 Jan 2016 07:05:35 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: S<br /> LOCATION: Midland Highway, Oatlands<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 50 hectares<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/20062">http://www.fire.tas.gov.au/a/20062</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 07:05:35 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.331275043681856 147.3449948785231</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Foleys Road, Mount Roland</title>
+                <link>http://www.fire.tas.gov.au/a/19825</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-07:235614</guid>
+                <pubDate>Wed, 13 Jan 2016 07:06:06 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: NW<br /> LOCATION: Foleys Road, Mount Roland<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 7.5 hectares<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/19825">http://www.fire.tas.gov.au/a/19825</a><br /> RESPONSIBLE AGENCY: Forestry Tasmania<br /> UPDATED: Wed, 13 Jan 2016 07:06:06 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.445648284738134 146.29498337011697</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Swamp Road, Sprent</title>
+                <link>http://www.fire.tas.gov.au/a/19974</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-07:235599</guid>
+                <pubDate>Wed, 13 Jan 2016 07:06:39 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: NW<br /> LOCATION: Swamp Road, Sprent<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: Not reported<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/19974">http://www.fire.tas.gov.au/a/19974</a><br /> RESPONSIBLE AGENCY: Forestry Tasmania<br /> UPDATED: Wed, 13 Jan 2016 07:06:39 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.28562542373269 146.16644585509638</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Pipers River Road, Pipers River</title>
+                <link>http://www.fire.tas.gov.au/a/19511</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-03:235484</guid>
+                <pubDate>Wed, 13 Jan 2016 07:07:25 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Pipers River Road, Pipers River<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: Not reported<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/19511">http://www.fire.tas.gov.au/a/19511</a><br /> RESPONSIBLE AGENCY: Forestry Tasmania<br /> UPDATED: Wed, 13 Jan 2016 07:07:25 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.18163428365385 147.10678400639614</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Woolnorth Road, Woolnorth</title>
+                <link>http://www.fire.tas.gov.au/a/19476</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-03:235472</guid>
+                <pubDate>Wed, 13 Jan 2016 11:45:05 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: NW<br /> LOCATION: Woolnorth Road, Woolnorth<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 25 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/19476">http://www.fire.tas.gov.au/a/19476</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 11:45:05 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-40.71353353363858 144.76163350862004</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Musselroe Bay and Ansons Bay</title>
+                <link>http://www.fire.tas.gov.au/a/19324</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-02:235439</guid>
+                <pubDate>Wed, 13 Jan 2016 11:13:32 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Musselroe Bay and Ansons Bay<br /> STATUS: Under Control<br /> TYPE: VEGETATION FIRE<br /> SIZE: 188 ha<br /> Number of Vehicles: 6<br /> More Info: <a href="http://www.fire.tas.gov.au/a/19324">http://www.fire.tas.gov.au/a/19324</a><br /> RESPONSIBLE AGENCY: Parks &amp; Wildlife Service<br /> UPDATED: Wed, 13 Jan 2016 11:13:32 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-40.849957893370735 148.1477138766571</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Connorville Road, Lake River</title>
+                <link>http://www.fire.tas.gov.au/a/19259</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2016-01-01:235411</guid>
+                <pubDate>Wed, 13 Jan 2016 11:12:50 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Connorville Road, Lake River<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 808 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/19259">http://www.fire.tas.gov.au/a/19259</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 11:12:50 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-41.860891579584624 147.16799247641598</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Waterhouse Road, Waterhouse</title>
+                <link>http://www.fire.tas.gov.au/a/18686</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2015-12-25:235122</guid>
+                <pubDate>Wed, 13 Jan 2016 11:12:16 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Waterhouse Road, Waterhouse<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 14.5 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/18686">http://www.fire.tas.gov.au/a/18686</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 11:12:16 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-40.93268412450085 147.61759929457335</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>South Rhodes Road, Stonehenge</title>
+                <link>http://www.fire.tas.gov.au/a/20497</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2015-11-09:233492</guid>
+                <pubDate>Wed, 13 Jan 2016 11:11:37 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: S<br /> LOCATION: South Rhodes Road, Stonehenge<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 27.5 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/20497">http://www.fire.tas.gov.au/a/20497</a><br /> RESPONSIBLE AGENCY: Tasmania Fire Service<br /> UPDATED: Wed, 13 Jan 2016 11:11:37 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-42.42991262996773 147.69846075822892</georss:point>
+                    
+                    
+                
+            </item>
+        
+            <item>
+                <title>Lackrana Road (Camerons Inlet), Lackrana</title>
+                <link>http://www.fire.tas.gov.au/a/13648</link>
+                <category>No Alert Level</category>
+                <guid isPermaLink="false">tag:www.fire.tas.gov.au,2015-10-06:232365</guid>
+                <pubDate>Wed, 13 Jan 2016 11:11:02 +1100</pubDate>
+                <description><![CDATA[
+                    ALERT LEVEL: No Alert Level<br /> Region: N<br /> LOCATION: Lackrana Road (Camerons Inlet), Lackrana<br /> STATUS: Patrol<br /> TYPE: VEGETATION FIRE<br /> SIZE: 4625 ha<br /> Number of Vehicles: <br /> More Info: <a href="http://www.fire.tas.gov.au/a/13648">http://www.fire.tas.gov.au/a/13648</a><br /> RESPONSIBLE AGENCY: Parks &amp; Wildlife Service<br /> UPDATED: Wed, 13 Jan 2016 11:11:02 +1100<br /> 
+                    ]]>
+                </description>
+                
+                    <georss:point>-40.06798530540451 148.19842537404224</georss:point>
+                    
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
+
+
+

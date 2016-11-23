@@ -1,0 +1,175 @@
+<rss xmlns:datetime="http://exslt.org/dates-and-times" xmlns:georss="http://www.georss.org/georss" version="2.0">
+<channel>
+<title>Statewide Current Incident Summary</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm?tm=10062016120000</link>
+<description>Current activity (over the previous 5 hours) is listed below.</description>
+<language>en-us</language>
+<pubDate>Fri, 10 Jun 2016 04:22:01 GMT</pubDate>
+<lastBuildDate></lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>Whispir RSS Engine</generator>
+<managingEditor>no-reply@whispir.com</managingEditor>
+<webMaster>no-reply@whispir.com</webMaster>
+<ttl>5</ttl>
+<item>
+<title>CRANBOURNE EAST, STATELY DR</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 08&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; CRANBOURNE EAST&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; STATELY DR&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:15:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 02:15:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:15:00 GMT</pubDate>
+<guid>1580789</guid>
+<georss:collection>
+<georss:point>-38.104216239804316 145.3049069895884</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>BENDIGO, KING ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 02&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; BENDIGO&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; KING ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:14:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; NON STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; GOING&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 3&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 02:14:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:14:00 GMT</pubDate>
+<guid>1580788</guid>
+<georss:collection>
+<georss:point>-36.764621194865626 144.27735587568023</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>POINT COOK, AVIATION RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 14&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; POINT COOK&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; AVIATION RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:21:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; STRUCTURE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 3&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 01:44:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:21:00 GMT</pubDate>
+<guid>1580787</guid>
+<georss:collection>
+<georss:point>-37.92550119037634 144.74649852166152</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>BARRAMUNGA, FORREST-APOLLO BAY RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 06&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; BARRAMUNGA&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; FORREST-APOLLO BAY RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:03:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; RESCUE&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 12:08:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:03:00 GMT</pubDate>
+<guid>1580767</guid>
+<georss:collection>
+<georss:point>-38.558817552266866 143.69508558249174</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>OCEAN GROVE, WALYUNGA MEWS</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; DISTRICT 07&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; OCEAN GROVE&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; WALYUNGA MEWS&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 01:58:00 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; OTHER&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; SAFE&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; SMALL&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 0&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 01:41:00 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 03:58:00 GMT</pubDate>
+<guid>1580786</guid>
+<georss:collection>
+<georss:point>-38.25393823744609 144.55275384447944</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>WESTMEADOWS, WESTERN AV</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; WESTMEADOWS&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; WESTERN AV&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:21:09 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Incident&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 1&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 02:21:09 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:21:09 GMT</pubDate>
+<guid>160604687</guid>
+<georss:collection>
+<georss:point>-37.684443269951366 144.8821432973998</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>POINT COOK, AVIATION RD</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; POINT COOK&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; AVIATION RD&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:21:04 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Structure Fire&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Stop&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 4&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 02:21:04 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:21:04 GMT</pubDate>
+<guid>160604668</guid>
+<georss:collection>
+<georss:point>-37.92549654830792 144.7465059442156</georss:point>
+</georss:collection>
+</item>
+<item>
+<title>PARKVILLE, GRATTAN ST</title>
+<link>http://www.cfa.vic.gov.au/incidents/incident_summary.htm</link>
+<description>
+		           &lt;b&gt;District/Region:&lt;/b&gt; MFB&lt;br&gt;
+		           &lt;b&gt;Location:&lt;/b&gt; PARKVILLE&lt;br&gt;
+		           &lt;b&gt;Name:&lt;/b&gt; GRATTAN ST&lt;br&gt;
+		           &lt;b&gt;Last Updated Date/Time:&lt;/b&gt; 10/06/16 02:04:29 PM&lt;br&gt;
+		           &lt;b&gt;Type:&lt;/b&gt; Full Call&lt;br&gt;
+		           &lt;b&gt;Status:&lt;/b&gt; Investigating&lt;br&gt;
+		           &lt;b&gt;Size:&lt;/b&gt; Small&lt;br&gt;
+		           &lt;b&gt;Appliances:&lt;/b&gt; 2&lt;br&gt;
+		           &lt;b&gt;Start Date/Time:&lt;/b&gt; 10/06/16 02:04:29 PM&lt;br&gt;
+			</description>
+<pubDate>Fri, 10 Jun 2016 04:04:29 GMT</pubDate>
+<guid>160604673</guid>
+<georss:collection>
+<georss:point>-37.79934756749404 144.95605588195187</georss:point>
+</georss:collection>
+</item>
+</channel>
+</rss>

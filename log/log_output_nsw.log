@@ -1,0 +1,205 @@
+HTTP/1.1 200 OK
+Content-Type: text/xml
+Content-Length: 25102
+Connection: keep-alive
+Date: Wed, 13 Jan 2016 01:45:01 GMT
+Cache-Control: max-age=30, must-revalidate
+Last-Modified: Wed, 13 Jan 2016 01:44:46 GMT
+x-amz-version-id: Y2ssvi8rbNUh2eG.fYehq._hWdcDDlXR
+ETag: "2665123df2de09c5d80491cd49fc4f6e"
+Server: AmazonS3
+Age: 2
+X-Cache: Hit from cloudfront
+Via: 1.1 8094b2a1faa8405ea4a61d1f3b90514f.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: E3ZGVJlOCZhUs9iYkxzQQrv8V7rfuMvzU0-HxwXzUV9kjspdQRjaGQ==
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <category>Emergency Incident Information</category>
+    <title>NSW Rural Fire Service Current Incidents</title>
+    <link>http://www.rfs.nsw.gov.au/feeds/majorIncidents.xml</link>
+    <description>Fire incidents as at Wed, 13 Jan 2016 01:44:45 GMT</description>
+    <copyright>State of New South Wales (NSW Rural Fire Service) 2016</copyright>
+    <language>en-AU</language>
+    <webMaster>webmaster@rfs.nsw.gov.au (NSW RFS Webmaster)</webMaster>
+    <generator>NSWRFS.Feeds 1.1.2.0</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <ttl>60</ttl>
+    <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+    <link href="http://www.rfs.nsw.gov.au/feeds/majorIncidents.xml" rel="self" type="application/rss+xml" xmlns="http://www.w3.org/2005/Atom" />
+    <item>
+      <title>"Ravenwood"</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213904</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Baldry-Peak Hill Rd, Peak Hill, NSW 2869 <br />COUNCIL AREA: Parkes <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 3 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 10:54]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213904</guid>
+      <point xmlns="http://www.georss.org/georss">-32.8382025909999 148.316287994</point>
+      <polygon xmlns="http://www.georss.org/georss">-32.842935159 148.328132302 -32.8431248869999 148.327825954 -32.8429797859999 148.327448306 -32.842720469 148.327289801 -32.842403571 148.327285031 -32.841863217 148.327254812 -32.8414528769999 148.327270722 -32.8411739709999 148.327200267 -32.840908268 148.327283439 -32.840790661 148.327235026 -32.840690487 148.32739677 -32.8405110739999 148.327603965 -32.840313978 148.32762432 -32.8401156319999 148.327761263 -32.8401547509999 148.327785174 -32.840419563 148.328006072 -32.8407532059999 148.328187781 -32.8414230989999 148.328308299 -32.842073641 148.328494785 -32.8423355639999 148.328410387 -32.842935159 148.328132302</polygon>
+      <polygon xmlns="http://www.georss.org/georss">-32.82876347 148.34281687 -32.828764943 148.34268112 -32.8287076359999 148.342680248 -32.82876347 148.34281687</polygon>
+    </item>
+    <item>
+      <title>3 km East of South Australian Border, Scotia</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213404</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: 3 km east of SA border, Scotia, NSW 2648 <br />COUNCIL AREA: Wentworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 625 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 10:25]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213404</guid>
+      <point xmlns="http://www.georss.org/georss">-33.2055150399999 141.029605865</point>
+      <polygon xmlns="http://www.georss.org/georss">-33.194681201 141.019595899 -33.194771649 141.019645942 -33.194739039 141.01957445 -33.194681201 141.019595899</polygon>
+      <polygon xmlns="http://www.georss.org/georss">-33.223888858 141.051588149 -33.2239884639999 141.051151125 -33.2238683099999 141.051159275 -33.223888858 141.051588149</polygon>
+      <polygon xmlns="http://www.georss.org/georss">-33.162686142 141.047426888 -33.16246997 141.048704153 -33.162920846 141.049128574 -33.166445671 141.048616563 -33.167250867 141.047651928 -33.1691206949999 141.048139393 -33.171466406 141.046581061 -33.1726521379999 141.046568878 -33.1729946629999 141.045931328 -33.1742789909999 141.046378877 -33.1749321629999 141.04503765 -33.177613486 141.043695261 -33.17810478 141.042569735 -33.1790504599999 141.042937856 -33.1795114889999 141.042178429 -33.180736173 141.042379708 -33.1811179069999 141.041762173 -33.182227086 141.041550328 -33.182714835 141.0397537 -33.183531186 141.038838986 -33.183453438 141.039193607 -33.184743284 141.039160804 -33.1849253 141.037771728 -33.1858440239999 141.037777569 -33.18746349 141.035243986 -33.188332279 141.032420012 -33.189235481 141.032699932 -33.190005906 141.030815601 -33.19100552 141.030315206 -33.1914713589999 141.02925943 -33.191868459 141.031747102 -33.1931473659999 141.031682863 -33.1940797359999 141.03237045 -33.195228659 141.031791619 -33.1962882839999 141.032937118 -33.19697266 141.032048498 -33.2002939559999 141.033870923 -33.201160095 141.040150615 -33.199134623 141.041403413 -33.1986184629999 141.044203691 -33.1990404329999 141.045221964 -33.200907802 141.045857658 -33.202403137 141.044322289 -33.20376347 141.044958268 -33.2041329589999 141.044284514 -33.2061164849999 141.043353215 -33.2073778879999 141.044519431 -33.208106479 141.043752981 -33.207823482 141.043381243 -33.208594816 141.04160858 -33.2097119059999 141.040923923 -33.2101424269999 141.039130616 -33.21120364 141.039115407 -33.214354602 141.037194039 -33.214252153 141.035857976 -33.216479146 141.033225299 -33.2160806809999 141.030111014 -33.2150349089999 141.028657039 -33.213985221 141.029592288 -33.2118147109999 141.027942986 -33.2110298109999 141.028531341 -33.2106932039999 141.026903986 -33.209974739 141.026884621 -33.2078973769999 141.025068572 -33.207211886 141.025138024 -33.207630448 141.025883409 -33.2072100669999 141.026094129 -33.2055587409999 141.023589062 -33.2048277119999 141.023308833 -33.2046204869999 141.024369949 -33.2034192589999 141.024656617 -33.2018003819999 141.022627436 -33.2013029669999 141.023423787 -33.2000155339999 141.022714906 -33.1998190099999 141.022011369 -33.1988787839999 141.022155095 -33.197563777 141.021072605 -33.196341349 141.021713502 -33.196115665 141.021000605 -33.1947233229999 141.02029895 -33.1939898709999 141.018380363 -33.193373563 141.018297212 -33.1930183649999 141.018867618 -33.1917475459999 141.018305661 -33.190966144 141.016583861 -33.190244086 141.016291743 -33.189932814 141.017177742 -33.188559281 141.016668347 -33.189805024 141.018893236 -33.188144445 141.019177109 -33.1881271779999 141.020407142 -33.187169464 141.020187956 -33.186809145 141.021247921 -33.185077529 141.020057453 -33.18441201 141.020739967 -33.183477056 141.013055454 -33.184402135 141.024904914 -33.1853188859999 141.02427359 -33.18497114 141.0234098 -33.185317916 141.022862796 -33.187315418 141.024012456 -33.1874782319999 141.02560569 -33.188352688 141.024294534 -33.189200064 141.027786883 -33.187881176 141.028809669 -33.187146051 141.028245278 -33.185174065 141.02901665 -33.18479661 141.032307764 -33.183863163 141.031995786 -33.183686359 141.032497051 -33.1829509999999 141.032524306 -33.1832354699999 141.033267258 -33.1826199829999 141.033001918 -33.1822412939999 141.033880978 -33.1794134429999 141.032969667 -33.1777599279999 141.033798847 -33.177276575 141.033297 -33.175496901 141.033691043 -33.1754476199999 141.035252984 -33.173656755 141.034817268 -33.17375649 141.036096016 -33.1724023849999 141.037382536 -33.1719623559999 141.038777564 -33.168523383 141.040080468 -33.169472019 141.041904421 -33.170278224 141.041758679 -33.1712874469999 141.040461551 -33.1717170869999 141.041240076 -33.172532283 141.041082338 -33.172228419 141.042923147 -33.169261912 141.042908371 -33.1679080389999 141.043603172 -33.167105401 141.043225381 -33.1668252869999 141.043767661 -33.163708115 141.043603832 -33.1622182949999 141.04405756 -33.1614739629999 141.04369858 -33.1606810769999 141.044321117 -33.161572233 141.045147873 -33.1612095519999 141.045763962 -33.162704016 141.045207582 -33.162862552 141.04572007 -33.161118229 141.046452636 -33.1589908879999 141.046380821 -33.1584211269999 141.047067803 -33.159587108 141.048638014 -33.161480281 141.047019561 -33.162686142 141.047426888</polygon>
+    </item>
+    <item>
+      <title>Cattle Creek Rd, Cattle Creek</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213841</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Cattle Creek Rd, Cattle Creek, NSW 2339 <br />COUNCIL AREA: Liverpool Plains <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2016 15:22]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213841</guid>
+      <point xmlns="http://www.georss.org/georss">-31.7530509999999 150.300617</point>
+    </item>
+    <item>
+      <title>Clifton Rd, Carroll</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213868</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Clifton Rd, Carroll, NSW 2340 <br />COUNCIL AREA: Gunnedah <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 12 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2016 15:25]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213868</guid>
+      <point xmlns="http://www.georss.org/georss">-31.0759314919999 150.488879174</point>
+      <polygon xmlns="http://www.georss.org/georss">-31.079058252 150.497683472 -31.079254662 150.49771374 -31.0790827559999 150.496230623 -31.079023369 150.49560981 -31.078690357 150.495247705 -31.0786620609999 150.494445269 -31.0784405209999 150.492295133 -31.078245803 150.491901424 -31.077883673 150.491255442 -31.077264425 150.490093954 -31.0767031249999 150.488808352 -31.0759027239999 150.488271766 -31.0753721479999 150.487808849 -31.074993403 150.487363037 -31.07420925 150.486863774 -31.0744245069999 150.487141458 -31.074686941 150.487271344 -31.0749816429999 150.488070833 -31.075064238 150.488483028 -31.0753322209999 150.489197465 -31.0755277449999 150.48996333 -31.0759351309999 150.490926996 -31.076285264 150.492001904 -31.076431178 150.492589208 -31.076583259 150.49297426 -31.0769395459999 150.493134617 -31.077430697 150.493765485 -31.0778325969999 150.49491855 -31.0779719409999 150.495745457 -31.07817834 150.496132633 -31.07854954 150.496463031 -31.079058252 150.497683472</polygon>
+    </item>
+    <item>
+      <title>Cox Comb</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213949</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Cox Comb <br />COUNCIL AREA: Walcha <br />STATUS: Out of control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 2 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 13 Jan 2016 09:10]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213949</guid>
+      <point xmlns="http://www.georss.org/georss">-30.8114122729999 151.925382614</point>
+    </item>
+    <item>
+      <title>Daisy Creek Fire</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213891</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: daisy creek <br />COUNCIL AREA: Walcha <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 40 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 13 Jan 2016 12:06]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213891</guid>
+      <point xmlns="http://www.georss.org/georss">-31.0940653419999 151.941647529</point>
+    </item>
+    <item>
+      <title>Drip Rock</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213871</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: 150 29.514, -33 21.459  <br />COUNCIL AREA: Hawkesbury <br />STATUS: Being controlled <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 7 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 13 Jan 2016 09:29]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213871</guid>
+      <point xmlns="http://www.georss.org/georss">-33.3289487079999 150.66324234</point>
+    </item>
+    <item>
+      <title>Elliotts Rd, Crowther</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213906</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Elliotts Rd, Crowther, NSW 2803 <br />COUNCIL AREA: Young <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 08:37]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213906</guid>
+      <point xmlns="http://www.georss.org/georss">-34.1418279999999 148.573686</point>
+      <polygon xmlns="http://www.georss.org/georss">-34.1447629749999 148.565770251 -34.144857267 148.565660191 -34.144710786 148.564987004 -34.144372474 148.564794644 -34.143970837 148.564712903 -34.1436671779999 148.564793084 -34.1434129749999 148.564740104 -34.142891645 148.564320941 -34.142271851 148.564347029 -34.141467183 148.564295285 -34.140845995 148.5644331 -34.1408330049999 148.565475896 -34.140946195 148.566334711 -34.1410640239999 148.5668211 -34.141239602 148.567643796 -34.141546478 148.567872843 -34.142228674 148.567810653 -34.1428175029999 148.567784031 -34.1433837289999 148.567086462 -34.1435760319999 148.566568401 -34.143631695 148.566331667 -34.143671718 148.566346612 -34.144199542 148.566244374 -34.144512458 148.565989249 -34.1447629749999 148.565770251</polygon>
+    </item>
+    <item>
+      <title>Gumble Rd, Cumnock</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213911</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Gumble Rd, Cumnock, NSW 2867 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 10 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 10:13]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213911</guid>
+      <point xmlns="http://www.georss.org/georss">-32.9553127099999 148.602018356</point>
+      <polygon xmlns="http://www.georss.org/georss">-32.971013136 148.6339236 -32.971098167 148.633173776 -32.971041321 148.63178454 -32.970794971 148.630926693 -32.9704439819999 148.630678216 -32.9702533079999 148.630483654 -32.970169794 148.630303811 -32.9696561379999 148.630179681 -32.9693022989999 148.63014766 -32.968858245 148.630445085 -32.9686350489999 148.631090449 -32.9684616549999 148.632029644 -32.9684229169999 148.632525601 -32.968292778 148.633440121 -32.968315071 148.634191913 -32.9684113129999 148.635034224 -32.968571606 148.635903197 -32.9686613069999 148.63642701 -32.96900068 148.637554025 -32.96979771 148.638167414 -32.97020521 148.638200466 -32.970478909 148.637798021 -32.970771412 148.636784616 -32.9708906729999 148.635882606 -32.970976892 148.63504366 -32.971013136 148.6339236</polygon>
+    </item>
+    <item>
+      <title>Maryland National Park</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213923</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Maryland NP. <br />COUNCIL AREA: Tenterfield <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 09:54]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213923</guid>
+      <point xmlns="http://www.georss.org/georss">-28.4777451309999 152.090778351</point>
+    </item>
+    <item>
+      <title>Red Ridge</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213823</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Red Ridge Fire Trail Blue Mountains <br />COUNCIL AREA: Blue Mountains <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 4 ha <br />RESPONSIBLE AGENCY: NSW National Parks and Wildlife Service <br />UPDATED: 13 Jan 2016 10:00]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213823</guid>
+      <point xmlns="http://www.georss.org/georss">-33.8321553669999 150.45325756</point>
+      <polygon xmlns="http://www.georss.org/georss">-33.8333058389999 150.453536189 -33.833427964 150.4531615 -33.8334216609999 150.452714746 -33.833246631 150.45230596 -33.832998388 150.451849623 -33.832556655 150.451653527 -33.8319952639999 150.451742916 -33.831634897 150.451974215 -33.8314258739999 150.452122209 -33.8312869869999 150.452429252 -33.831253607 150.452963721 -33.831351732 150.453458751 -33.8317928449999 150.453677155 -33.832424373 150.453746832 -33.832817657 150.453673118 -33.8333058389999 150.453536189</polygon>
+    </item>
+    <item>
+      <title>Rotherwood</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213771</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Lumley Rd, Tarago,  2580 <br />COUNCIL AREA: Goulburn Mulwaree <br />STATUS: Under control <br />TYPE: Grass Fire <br />FIRE: Yes <br />SIZE: 237 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 12 Jan 2016 08:08]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213771</guid>
+      <point xmlns="http://www.georss.org/georss">-35.0497433939999 149.753050804</point>
+      <polygon xmlns="http://www.georss.org/georss">-35.037189805 149.785355289 -35.0372584849999 149.784982156 -35.037236563 149.78529668 -35.039178665 149.785260418 -35.0395075599999 149.784583932 -35.0399547719999 149.78241533 -35.0407951719999 149.781096385 -35.04082097 149.780284831 -35.0422053619999 149.779842008 -35.04365819 149.778341512 -35.0426209149999 149.779497067 -35.044697823 149.777229595 -35.045120002 149.777129589 -35.04513557 149.777126661 -35.045136671 149.777125642 -35.0511241949999 149.775707214 -35.0518253509999 149.772163757 -35.05248073 149.769575753 -35.0524719749999 149.769050454 -35.052463309 149.768530721 -35.052430398 149.766557857 -35.0515618919999 149.765948513 -35.050592109 149.765596779 -35.0496501219999 149.765071985 -35.0503305989999 149.764514914 -35.050744972 149.764122869 -35.051410908 149.764203327 -35.051955708 149.764366706 -35.0546128039999 149.763934268 -35.0546657039999 149.762659933 -35.0543896409999 149.762215588 -35.0537785619999 149.760773878 -35.0524743939999 149.759395864 -35.050398393 149.758397944 -35.0489546059999 149.757914356 -35.04842967 149.757925697 -35.045966528 149.758219839 -35.0449848499999 149.758389812 -35.042786657 149.760664747 -35.042724477 149.761300622 -35.042666255 149.761762635 -35.0420526619999 149.762524924 -35.041208077 149.764004365 -35.0409612239999 149.765416939 -35.040947371 149.767069347 -35.040916806 149.767530999 -35.040938049 149.767533792 -35.040848093 149.76876659 -35.040587805 149.770123846 -35.0398181469999 149.772365275 -35.0398797669999 149.772437767 -35.0393325649999 149.773710618 -35.039378953 149.773458457 -35.039142163 149.774054745 -35.038891925 149.774568227 -35.0383437789999 149.775593569 -35.037520276 149.77614563 -35.037360705 149.77686514 -35.037736617 149.778153719 -35.037919216 149.779551742 -35.0378277 149.781462415 -35.037292689 149.782952085 -35.0372919079999 149.784024923 -35.037189805 149.785355289</polygon>
+    </item>
+    <item>
+      <title>Split Rock Dam Rd, Upper Manilla</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213895</link>
+      <description><![CDATA[ALERT LEVEL: Advice <br />LOCATION: Split Rock Dam Rd, Upper Manilla, NSW 2346 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 1 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 09:19]]></description>
+      <category>Advice</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213895</guid>
+      <point xmlns="http://www.georss.org/georss">-30.5915285479999 150.661816368</point>
+      <polygon xmlns="http://www.georss.org/georss">-30.591909261 150.661756882 -30.591980645 150.661447552 -30.591873569 150.660995454 -30.5917189039999 150.660852687 -30.591350088 150.660805097 -30.590886094 150.660947865 -30.590909887 150.661483243 -30.5910764499999 150.661733087 -30.591231115 150.662018622 -30.591421472 150.662208979 -30.591647521 150.662101903 -30.591897364 150.661768778 -30.591909261 150.661756882</polygon>
+    </item>
+    <item>
+      <title>AFA Tomikin</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213955</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: sunpatch parade tomikin <br />COUNCIL AREA: Eurobodalla <br />STATUS: Under control <br />TYPE: Fire Alarm <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 11:23]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213955</guid>
+      <point xmlns="http://www.georss.org/georss">-35.8299919709999 150.191195011</point>
+    </item>
+    <item>
+      <title>Coolabah-Brewarrina Road, Coolabah</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213961</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Coolabah-Brewarrina Road, Coolabah, NSW 2831 <br />COUNCIL AREA: Bogan <br />STATUS: Under control <br />TYPE: Structure Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 11:53]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213961</guid>
+      <point xmlns="http://www.georss.org/georss">-31.0180169999999 146.730799</point>
+    </item>
+    <item>
+      <title>Old Winton Rd, Winton</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213872</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: 2006 Old Winton Rd, Winton, NSW 2344 <br />COUNCIL AREA: Tamworth <br />STATUS: Under control <br />TYPE: Bush Fire <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 09:58]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213872</guid>
+      <point xmlns="http://www.georss.org/georss">-31.0487739999999 150.613141</point>
+    </item>
+    <item>
+      <title>RFS Assistance AJ2016</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213131</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: Baden Powell Drive, Appin <br />COUNCIL AREA: Wollondilly <br />STATUS: Under control <br />TYPE: Assist Other Agency <br />FIRE: No <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 09:58]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213131</guid>
+      <point xmlns="http://www.georss.org/georss">-34.2461130269999 150.824131966</point>
+    </item>
+    <item>
+      <title>Yellowbox Rd, Manildra</title>
+      <link>http://www.rfs.nsw.gov.au/fire-information/fires-near-me/213812</link>
+      <description><![CDATA[ALERT LEVEL: Not Applicable <br />LOCATION: 522 Yellowbox Rd, Manildra, NSW 2865 <br />COUNCIL AREA: Cabonne <br />STATUS: Under control <br />TYPE: Other <br />FIRE: Yes <br />SIZE: 0 ha <br />RESPONSIBLE AGENCY: Rural Fire Service <br />UPDATED: 13 Jan 2016 10:24]]></description>
+      <category>Not Applicable</category>
+      <pubDate>Wed, 13 Jan 2016 01:44:45 GMT</pubDate>
+      <guid>https://incidents.rfs.nsw.gov.au/api/v1/incidents/213812</guid>
+      <point xmlns="http://www.georss.org/georss">-33.2340199999999 148.67482</point>
+    </item>
+  </channel>
+</rss>
