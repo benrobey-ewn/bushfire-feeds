@@ -124,6 +124,130 @@ class Bushfire extends EventFeedAbs {
     return $maxUpdateTimestamp;
   }
 
+  public function parseQldDocument() {
+        /*
+         * THis function should not be here, should have another class that extends ewnapplication / an abstract class
+         *
+         * this is a copy of getEventsQLDAlerts in this file. Parsing the XML format
+         */
+
+      $tmpEvents = array();
+      /*
+      object(stdClass)#901 (11) {
+        ["id"]=>
+        string(13) "QF3-12-118096"
+        ["displayType"]=>
+        int(3)
+        ["alertIcon"]=>
+        string(13) "PermittedBurn"
+        ["status"]=>
+        string(5) "Going"
+        ["alarmTime"]=>
+        string(12) "19-Nov 20:17"
+        ["lastUpdate"]=>
+        string(12) "19-Nov 20:19"
+        ["location"]=>
+        string(18) "Pyramids Rd, Eukey"
+        ["incidentType"]=>
+        string(14) "PERMITTED BURN"
+        ["latitude"]=>
+        float(-28.768944)
+        ["longitude"]=>
+        float(152.006543)
+        ["description"]=>
+        string(87) "A fire or other emergency has started in the area however there is no immediate threat."
+        */
+      //var_dump($this->document);
+
+
+
+      foreach ($this->document as $key=>$value) {
+          foreach ($this->document->$key as $item) {
+              print_r($item);die;
+              $title = $item->location;
+              $link = null;
+
+              if ($item->alertIcon == 'PermittedBurn') {
+                  $category = 'Permitted Burns/' . $item->status;
+              }
+              else {
+                  if ($item->alertIcon == 'WatchAndAct') {
+                      $alertType = 'Watch and Act';
+                  }
+                  else {
+                      $alertType = $item->alertIcon;
+                  }
+                  $category = $alertType . '/' . $item->incidentType . '/' . $item->status;
+              }
+
+              $guid = $item->id;
+              $pubDate = $item->lastUpdate;
+              $description = $item->description;
+              $lat = $item->latitude;
+              $lon = $item->longitude;
+              $coordinates = $lon . ' ' . $lat;
+              $alarmTime = $item->alarmTime;
+
+              $event = array(
+                  'title' => $title,
+                  'link' => $link,
+                  'category' => $category,
+                  'guid' => $guid,
+                  'pubDate' => $pubDate,
+                  'description' => $description,
+                  'coordinates' => $coordinates,
+                  'geocoded' => 0,
+                  //'pubtimestamp' will be set later
+                  //'pubtimestamp' => $pubtimestamp,
+                  'alarmTime' => $alarmTime,
+                  'type' => $this->type
+              );
+              /*
+              var_dump($event);
+              exit();
+              */
+              //$this->logger->LogDebug("Dumping QLD values: $title $link $category $guid $pudDate $description $coordinates $alarmTime $this->type");
+              $tmpEvents[] = $event;
+          }
+      }
+      // Remove items with the same titles and older timestamp.
+      $tmpEvents = $this->getLastUniqueEvents($tmpEvents);
+      $catsByGuids = $this->getDBCategoriesByGuidsQLD($tmpEvents);
+
+
+      /* Items must be
+      array('title' => $title,
+             'link' => $link,
+             'category' => $category,
+             'guid' => $guid,
+             'pubDate' => $pubDate,
+             'description' => $description,
+             'coordinates' => $coordinates,
+             'pubtimestamp' => $pubtimestamp,
+             'type' => $this->type);
+      */
+      foreach ($tmpEvents as $i=>$value) {
+          $guid = $tmpEvents[$i]['guid'];
+
+          if (isset($catsByGuids[$guid])) {
+              if ($catsByGuids[$guid] != $tmpEvents[$i]['category']) {
+                  // pubDate here is lastUpdate
+                  $pubtimestamp = $this->jsonQLDAlertTimeStringToUnixtimestamp($tmpEvents[$i]['pubDate']);
+              }
+              else{
+                  $pubtimestamp = $this->jsonQLDAlertTimeStringToUnixtimestamp($tmpEvents[$i]['alarmTime']);
+              }
+          }
+          else {
+              $pubtimestamp = $this->jsonQLDAlertTimeStringToUnixtimestamp($tmpEvents[$i]['alarmTime']);
+          }
+          $tmpEvents[$i]['pubtimestamp'] = $pubtimestamp;
+          unset($tmpEvents[$i]['alarmTime']);
+      }
+      return $tmpEvents;
+
+    }
+
   public function getPubDate() {
     if ($this->state == 'WA') {
       // WA feed has no pubDate tag, but has lastBuildDate tag.
@@ -411,15 +535,16 @@ class Bushfire extends EventFeedAbs {
 
   public function getEvents() {
     if ($this->state == 'QLD' && $this->type == 'alert') {
-      return $this->getEventsQLDAlerts();
+        //parse the document which is stored in $this->document and return back a formatted array of events
+        return $this->parseQldDocument();
     }
     else if ($this->state == 'SA' && $this->type == 'alert') {
       return $this->getEventsSAAlerts();
     }
 
-    $items = @$this->document->xpath("//item");
-    $itemsCount = count($items);
-    $events = array();
+      $items = @$this->document->xpath("//item");
+      $itemsCount = count($items);
+      $events = array();
 
     foreach ($items as $item) {
       $geometries = null;
@@ -715,8 +840,14 @@ class Bushfire extends EventFeedAbs {
         'geometries' => $geometries
       );
       $events[] = $event;
-      //$this->logger->LogDebug("event array dump for $this->state: $title $link $category $guid $pubDate $description $coordinates $geocoded $pubtimestamp $this->type $geometries");
+
+      $this->logger->LogDebug("event array dump for ". $this->state);
+      $this->logger->LogDebug(var_dump($event));
     }
+
+      if($this->state == 'QLD') {
+          $this->logger->LogDebug('Events for : '.$this->state. json_encode($events));
+      }
     /*
      * NT titles repeat in one feed.
      * We sort out titles with the latest pubDates.

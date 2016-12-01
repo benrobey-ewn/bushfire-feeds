@@ -67,11 +67,13 @@ return array(
     'alertUrls'=>array(
         'NSW' => 'http://www.rfs.nsw.gov.au/feeds/majorIncidents.xml', //https://maps.cfs.sa.gov.au/kmls/nsw
         'TAS' => 'http://www.fire.tas.gov.au/Show?pageId=colBushfireSummariesRss',
-        'VIC' => 'http://osom.cfa.vic.gov.au/public/osom/websites.rss', //https://maps.cfs.sa.gov.au/kmls/victoria
+        //'VIC' => 'http://osom.cfa.vic.gov.au/public/osom/websites.rss', //https://maps.cfs.sa.gov.au/kmls/victoria
+        'VIC' => 'https://data.emergency.vic.gov.au/Show?pageId=getIncidentRSS', //https://maps.cfs.sa.gov.au/kmls/victoria
         'SA' => 'https://maps.cfs.sa.gov.au/kmls/incidents', //http://www.cfs.sa.gov.au/custom/criimson/CFS_Fire_Warnings.xml
         'NT' => 'http://www.lrm.nt.gov.au/applications/bushfiresnt-alerts/watch-and-act', //'http://www.nretas.nt.gov.au/applications/bushfiresnt-alerts/watch-and-act',
         //'QLD' => 'http://www.ruralfire.qld.gov.au/bushfirealert/bushfireAlert.xml',
-        'QLD' => 'http://www.ruralfire.qld.gov.au/bushfirealert/bushfireAlert.js',
+        //'QLD' => 'http://www.ruralfire.qld.gov.au/bushfirealert/bushfireAlert.js',
+        'QLD' => 'https://www.qfes.qld.gov.au/data/alerts/bushfireAlert.xml',
         'WA' => null, // This state info is processed in a different way, //https://maps.cfs.sa.gov.au/kmls/wa
         /* TEST based off NSW
         'TST' => 'http://scrape.dev.ewn.com.au/Bushfire-Traffic/bushfiretestHTML.xml' */
