@@ -77,8 +77,9 @@ abstract class EventFeedAbs{
         $data = str_replace('&ndash', '-', $data); 
 
         if ($this->state == 'QLD' && $this->type == 'alert') {
-            list($var, $value) = explode('=', $data, 2);
-            $document = json_decode(utf8_encode(substr_replace($value, '', -1)));
+            //list($var, $value) = explode('=', $data, 2);
+            //$document = json_decode(utf8_encode(substr_replace($value, '', -1)));
+            $document = simplexml_load_string(preg_replace('/(<\?xml[^?]+?)utf-16/i', '$1utf-8', $data));
         }
         else if ($this->state == 'SA' && $this->type == 'alert') {
             $rootDir = basename(dirname($_SERVER['PHP_SELF']));
