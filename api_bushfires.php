@@ -96,7 +96,7 @@ try {
         $severity = 4;
         $postboth = false;
         $alertGroupKey2 = 0;
-        $forceDeliveryLocations = false;
+        $forceDeliveryLocations = true;
         $lastSeverity = null;
 
         $alertGroupKey = App::$config['bushfireAdviceAlertGroupKey']; //getAlertGroup($category);
@@ -138,7 +138,7 @@ try {
             try {
                 $reply = $apiService->put($alertGroupKey, $subject, $textForWeb, $textForSMS, $textForFax,
                                       $createdDate, $expires, $alertURL, $alertGUID, $externalId, $centroids,
-                                      $alertKey, $alertDeliveryLocationKey, $severity, $forceDeliveryLocations);
+                                      $alertKey, $alertDeliveryLocationKey, $severity, $forceDeliveryLocations, $topicId);
             }
             catch (Exception $e) {
                 $errorMsg = $e->getMessage();
