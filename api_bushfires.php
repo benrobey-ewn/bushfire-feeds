@@ -35,6 +35,8 @@ try {
     $records = $incident->getUpdated('bushfire');
     $records = filterBushfireEvents($records);
 
+    App::$logger->LogDebug('~~~~Checking for records for state: '. $state);
+
     if (count($records) == 0) {
         App::$logger->LogDebug(sprintf('No events for update. Exiting...'));
         exit();
@@ -46,6 +48,8 @@ try {
 
     foreach ($records as $record) {
         //App::$logger->LogDebug("Posting record" .  print_r($record, true));
+
+
         set_time_limit(300);
 
         if (!$record['point_str']) {
@@ -54,6 +58,10 @@ try {
 
         $title = $record['title'];
         $state = $record['state'];
+
+        App::$logger->LogDebug("~~~Checking for updates for state: ". $state. ".");
+
+
         $description = removeImgAndStyle($record['description']);
         $category = strtolower($record['category']);
         $last_category = strtolower($record['last_category']);
@@ -135,10 +143,12 @@ try {
         App::$logger->LogDebug("Post both?: " . ($postboth ? 'true' : 'false'));
         if ($alertKey != 0) {
             App::$logger->LogDebug("Going to update data for `$title`.");
+            App::$logger->LogDebug("~~~~ PUSH NEW DATA FOR STATE: " . $state . '".');
+
             try {
                 $reply = $apiService->put($alertGroupKey, $subject, $textForWeb, $textForSMS, $textForFax,
                                       $createdDate, $expires, $alertURL, $alertGUID, $externalId, $centroids,
-                                      $alertKey, $alertDeliveryLocationKey, $severity, $forceDeliveryLocations, $topicId);
+                                      $alertKey, $alertDeliveryLocationKey, $severity, $forceDeliveryLocations, isset($topicId) ? $topicId : 107);
             }
             catch (Exception $e) {
                 $errorMsg = $e->getMessage();
