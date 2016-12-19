@@ -220,11 +220,15 @@ class APIService{
     public function formatRequestJSON($alertGroupKey, $subject, $textForWeb, $textForSMS,
                                       $textForFax, $createdDate, $expires,
                                       $alertURL, $alertGUID, $externalId,  $centroids=null,
-                                      $alertKey=0, $alertDeliveryLocationKey=0, $severity=4, $forceDeliveryLocations=false){
+                                      $alertKey=0, $alertDeliveryLocationKey=0, $severity=4, $forceDeliveryLocations=false, $topicKey = null)
+    {
         $event = $this->requestTmpl;
         
         if(strlen($textForSMS) > 160){
             $textForSMS = substr($textForSMS, 0, 159);
+        }
+        if($topicKey != null) {
+            $event['TopicKey'] = $topicKey;
         }
         $event['AlertGroupKey'] = $alertGroupKey;
         $event['Subject'] = $subject;
@@ -246,7 +250,7 @@ class APIService{
             //$this->logger->LogDebug("External Date:" . $event['ExternalDate']);
         }
         else {
-            App::$ogger->LogDebug('No created date available. ExternalDate set to "".');
+            App::$Logger->LogDebug('No created date available. ExternalDate set to "".');
         }
         if ($alertKey === 0 || $forceDeliveryLocations) { //  $latLngChnged || $severityChanged
             if ($centroids) {
@@ -392,6 +396,8 @@ class APIService{
         App::$logger->LogDebug("Post text for web: " . $textForWeb);
         */
 
+        App::$logger->LogDebug("~~~APIService POST~~~: " . (string) json_encode($data));
+
         $handler = $this->init($uri, $data);
         curl_setopt($handler, CURLOPT_CUSTOMREQUEST, 'POST');
 
@@ -425,26 +431,18 @@ class APIService{
     public function put($alertGroupKey, $subject, $textForWeb, $textForSMS,
                         $textForFax, $createdDate, $expires,
                         $alertURL, $alertGUID, $externalId, $centroids,
-                        $alertKey, $alertDeliveryLocationKey, $severity=4, $forceDeliveryLocations){
+                        $alertKey, $alertDeliveryLocationKey, $severity=4, $forceDeliveryLocations, $topicKey = null){
         $uri = $this->apiRoot . '/' . $alertKey;
         $data = $this->formatRequestJSON($alertGroupKey, $subject, $textForWeb,
                                          $textForSMS, $textForFax, $createdDate,
                                          $expires, $alertURL, $alertGUID, $externalId,
                                          $centroids, $alertKey,
-                                         $alertDeliveryLocationKey, $severity, $forceDeliveryLocations);
+                                         $alertDeliveryLocationKey, $severity, $forceDeliveryLocations, $topicKey);
         
         App::$logger->LogDebug("alert group key: " . $alertGroupKey);
-        /*App::$logger->LogDebug("subject: " . $subject);
-        App::$logger->LogDebug("text for web: " . $textForWeb);
-        App::$logger->LogDebug("text for SMS: " . $textForSMS);
-        App::$logger->LogDebug("text for fax: " . $textForFax);
-        App::$logger->LogDebug("created date: " . $createdDate);
-        App::$logger->LogDebug("expires: " . $expires);
-        App::$logger->LogDebug("alert URL: " . $alertURL);
-        App::$logger->LogDebug("alert GUID: " . $alertGUID);
-        App::$logger->LogDebug("external ID: " . $externalId);
-        App::$logger->LogDebug("data array dump: " . var_dump($data));
-        */
+
+        App::$logger->LogDebug("~~~APIService PUT~~~: " . (string) json_encode($data));
+
 
         $handler = $this->init($uri, $data);
         curl_setopt($handler, CURLOPT_CUSTOMREQUEST, 'PUT');
