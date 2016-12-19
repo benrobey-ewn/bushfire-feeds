@@ -1,4 +1,8 @@
 <?php
+require 'vendor/autoload.php';
+
+use Carbon\Carbon;
+
 class Bushfire extends EventFeedAbs {
   public function getUrl() {
     if ($this->state == 'WA') {
@@ -22,12 +26,86 @@ class Bushfire extends EventFeedAbs {
     return $url;
   }
 
-  /*
-   * $curTimeString variable is for testing.
-   * It is used because different variants of $timeString and current
-   * time should be tested, but we can't set system time.
-   * In production this variable is always "now".
-   */
+
+    public function parseQldDocument() {
+        /*
+         * THis function should not be here, should have another class that extends ewnapplication / an abstract class
+         *
+         * this is a copy of getEventsQLDAlerts in this file. Parsing the XML format
+         */
+        $this->logger->LogDebug("parseQldDocument()");
+
+        foreach($this->document as $key=>$value) {
+            foreach ($this->document->$key as $item) {
+                $title = $item->location;
+            }
+        }
+
+        $parseXml = function($document)  {
+            $return = array();
+            foreach($document->entry as $element) {
+                //get georss namespace
+                $namespaces = $element->getNameSpaces(true);
+                $geo = $element->children($namespaces['georss']);
+                $item = [];
+                foreach($element as $key=>$value) {
+                    switch ($key) {
+                        case 'category':
+                            $item['category'] = isset($value['term']) ? (string)  $value['term'] : null;
+                            break;
+
+                        case 'content':
+                            $item['description'] = (string) $value;
+                            break;
+
+                        case 'id':
+                            $item['guid'] = (string) $value;
+                            break;
+
+                        case 'published':
+                            $item['unixtimestamp'] = $item['pubtimestamp'] = Carbon::parse($value)->timestamp;
+                            $item['pubDate'] = Carbon::parse($value)->timezone('Australia/Brisbane')->format('l jS \\of F Y h:i:s A');
+                            break;
+
+                        case 'title':
+                            $item['title'] = (string) $value;
+                            break;
+
+                        case 'updated':
+
+                            break;
+
+                        case stristr('georss', $value):
+                            $item['coordinates'] = (string) $value;
+                            break;
+
+                    }
+                }
+                $item['coordinates'] = (string) $geo->point;
+                $item['link'] = 'https://www.qfes.qld.gov.au/data/alerts/bushfireAlert.xml';
+                $item['geometries'] = $item['geocoded'] = 1;
+                $item['type'] = $this->type;
+                $return[]= $item;
+            }
+            return $return;
+        };
+
+        // Remove items with the same titles and older timestamp.
+        $events = $parseXml($this->document);
+
+        $this->logger->LogDebug("parseQldDocument() finished -----");
+
+
+        return $events;
+
+    }
+
+    /*
+     * $curTimeString variable is for testing.
+     * It is used because different variants of $timeString and current
+     * time should be tested, but we can't set system time.
+     * In production this variable is always "now".
+     */
   public function jsonQLDAlertTimeStringToUnixtimestamp($timeString, $curTimeString="now") {
     /*
     $pos = strpos($timeString, ' ');
@@ -124,129 +202,6 @@ class Bushfire extends EventFeedAbs {
     return $maxUpdateTimestamp;
   }
 
-  public function parseQldDocument() {
-        /*
-         * THis function should not be here, should have another class that extends ewnapplication / an abstract class
-         *
-         * this is a copy of getEventsQLDAlerts in this file. Parsing the XML format
-         */
-
-      $tmpEvents = array();
-      /*
-      object(stdClass)#901 (11) {
-        ["id"]=>
-        string(13) "QF3-12-118096"
-        ["displayType"]=>
-        int(3)
-        ["alertIcon"]=>
-        string(13) "PermittedBurn"
-        ["status"]=>
-        string(5) "Going"
-        ["alarmTime"]=>
-        string(12) "19-Nov 20:17"
-        ["lastUpdate"]=>
-        string(12) "19-Nov 20:19"
-        ["location"]=>
-        string(18) "Pyramids Rd, Eukey"
-        ["incidentType"]=>
-        string(14) "PERMITTED BURN"
-        ["latitude"]=>
-        float(-28.768944)
-        ["longitude"]=>
-        float(152.006543)
-        ["description"]=>
-        string(87) "A fire or other emergency has started in the area however there is no immediate threat."
-        */
-      //var_dump($this->document);
-
-
-
-      foreach ($this->document as $key=>$value) {
-          foreach ($this->document->$key as $item) {
-              print_r($item);die;
-              $title = $item->location;
-              $link = null;
-
-              if ($item->alertIcon == 'PermittedBurn') {
-                  $category = 'Permitted Burns/' . $item->status;
-              }
-              else {
-                  if ($item->alertIcon == 'WatchAndAct') {
-                      $alertType = 'Watch and Act';
-                  }
-                  else {
-                      $alertType = $item->alertIcon;
-                  }
-                  $category = $alertType . '/' . $item->incidentType . '/' . $item->status;
-              }
-
-              $guid = $item->id;
-              $pubDate = $item->lastUpdate;
-              $description = $item->description;
-              $lat = $item->latitude;
-              $lon = $item->longitude;
-              $coordinates = $lon . ' ' . $lat;
-              $alarmTime = $item->alarmTime;
-
-              $event = array(
-                  'title' => $title,
-                  'link' => $link,
-                  'category' => $category,
-                  'guid' => $guid,
-                  'pubDate' => $pubDate,
-                  'description' => $description,
-                  'coordinates' => $coordinates,
-                  'geocoded' => 0,
-                  //'pubtimestamp' will be set later
-                  //'pubtimestamp' => $pubtimestamp,
-                  'alarmTime' => $alarmTime,
-                  'type' => $this->type
-              );
-              /*
-              var_dump($event);
-              exit();
-              */
-              //$this->logger->LogDebug("Dumping QLD values: $title $link $category $guid $pudDate $description $coordinates $alarmTime $this->type");
-              $tmpEvents[] = $event;
-          }
-      }
-      // Remove items with the same titles and older timestamp.
-      $tmpEvents = $this->getLastUniqueEvents($tmpEvents);
-      $catsByGuids = $this->getDBCategoriesByGuidsQLD($tmpEvents);
-
-
-      /* Items must be
-      array('title' => $title,
-             'link' => $link,
-             'category' => $category,
-             'guid' => $guid,
-             'pubDate' => $pubDate,
-             'description' => $description,
-             'coordinates' => $coordinates,
-             'pubtimestamp' => $pubtimestamp,
-             'type' => $this->type);
-      */
-      foreach ($tmpEvents as $i=>$value) {
-          $guid = $tmpEvents[$i]['guid'];
-
-          if (isset($catsByGuids[$guid])) {
-              if ($catsByGuids[$guid] != $tmpEvents[$i]['category']) {
-                  // pubDate here is lastUpdate
-                  $pubtimestamp = $this->jsonQLDAlertTimeStringToUnixtimestamp($tmpEvents[$i]['pubDate']);
-              }
-              else{
-                  $pubtimestamp = $this->jsonQLDAlertTimeStringToUnixtimestamp($tmpEvents[$i]['alarmTime']);
-              }
-          }
-          else {
-              $pubtimestamp = $this->jsonQLDAlertTimeStringToUnixtimestamp($tmpEvents[$i]['alarmTime']);
-          }
-          $tmpEvents[$i]['pubtimestamp'] = $pubtimestamp;
-          unset($tmpEvents[$i]['alarmTime']);
-      }
-      return $tmpEvents;
-
-    }
 
   public function getPubDate() {
     if ($this->state == 'WA') {
@@ -255,7 +210,7 @@ class Bushfire extends EventFeedAbs {
       list( , $feedPubDate) = each($feedPubDate);
     }
     else if($this->state == 'QLD' && $this->type == 'alert') {
-        $feedPubDate = $this->getPubDateQLDAlert();
+        //$feedPubDate = $this->getPubDateQLDAlert();
     }
     else {
       $feedPubDate = @$this->document->xpath("/rss/channel/pubDate");
@@ -264,7 +219,7 @@ class Bushfire extends EventFeedAbs {
     $this->logger->LogDebug("Feed pubDate in document $feedPubDate.");
     // If no pubDate in feed. We assume that feed is current and
     // set it unixtimestamp just to have value which has meaning.
-    if ($feedPubDate == null) {
+    if (!isset($feedPubDate) || $feedPubDate == null) {
       $feedPubDate = time();
       $this->logger->LogDebug("Feed pubDate set as $feedPubDate.");
     }
@@ -535,6 +490,7 @@ class Bushfire extends EventFeedAbs {
 
   public function getEvents() {
     if ($this->state == 'QLD' && $this->type == 'alert') {
+        $this->logger->LogDebug('TESTTESTTEST----------------');
         //parse the document which is stored in $this->document and return back a formatted array of events
         return $this->parseQldDocument();
     }
