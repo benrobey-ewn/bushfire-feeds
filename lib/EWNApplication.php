@@ -177,6 +177,7 @@ class EWNApplication {
                                 %s, %s, %s, %s, %s, '%s', '%s', '%s', '%s', %s, %s)";
         $update_ts = time();
         $valuesArray = array();
+        $this->logger->LogDebug("Records to insert before filter for ".$state."." . count($events));
         foreach ($events as $event) {
             $ignoreBeforeTimeStamp = time() - $this->config['clear_before_hours'] * 60 * 60;
             if ($event['pubtimestamp'] < $ignoreBeforeTimeStamp) {
@@ -196,7 +197,12 @@ class EWNApplication {
                 if(strstr(',', $event['coordinates'])){
 
                 }else{
-                    list($lonTmp, $latTmp) = explode(" ", $event['coordinates']);
+                    if($state == 'QLD') {
+                        list($latTmp, $lonTmp) = explode(" ", $event['coordinates']);
+                    }
+                    else {
+                        list($lonTmp, $latTmp) = explode(" ", $event['coordinates']);
+                    }
                     if($this->checkCoordinates($lonTmp, $latTmp)){
                         $pointGeom = sprintf("GeomFromText('POINT(%s)')",
                                              $event['coordinates']);
@@ -260,6 +266,8 @@ class EWNApplication {
 
         // We have to check if there are exactly the same records in the
         // table to avoid rewritting.
+
+
         $existingTitles = $this->getExistingRecordsTitles($valuesArray);
 
         $filteredValuesArray = array();
@@ -291,6 +299,14 @@ class EWNApplication {
             $result = false;
         }else{
             $valuesNumber = count($values);
+
+            ob_start();                    // start buffer capture
+            var_dump( $values );           // dump the values
+            $contents = ob_get_contents(); // put the buffer into a variable
+            ob_end_clean();                // end capture
+
+
+            $this->logger->LogDebug("inserted values for ".$state.": " . $contents);
             $this->logger->LogDebug("Inserted or updated $valuesNumber records for $state, $event_type.");
         }
 
@@ -431,7 +447,19 @@ class EWNApplication {
                 return;
             }
 
+
+            //get events from $feedLoader->document
+            //see Bushfire.php - for each state's document processing
+
             $events = $feedLoader->getEvents();
+
+            ob_start();                    // start buffer capture
+            var_dump( $events );           // dump the values
+            $contents = ob_get_contents(); // put the buffer into a variable
+            ob_end_clean();                // end capture
+
+
+            $this->logger->LogDebug("events for ".$state.": " . $contents);
 
             //$this->logger->LogDebug("Got to here for $state, $type" . print_r($events, true) . "");
 
